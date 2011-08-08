@@ -1,3 +1,31 @@
+-------------------------------------------------------------------
 Portal for Families Overcoming Neurodevelopmental Disorders (PFOND)
 -------------------------------------------------------------------
 
+OVERVIEW
+
+Led by the Wasserman Laboratory at UBC (http://www.cmmt.ubc.ca/research/investigators/wasserman/lab), the Portal for Families Overcoming Neurodevelopmental Disorders (PFOND) is a web-based service to promote the sharing of information about research, treatment and resources.
+
+REPO
+
+The full source code for the PFOND project is contained here. Most of the files are part of a standard WordPress installation, but the following changes should be noted:
+ 
+	/wp-content/themes/pfond - The custom theme created for PFOND, which includes layout, custom post types and functions, page templates, and other essential system files. Details for specific files:
+		
+		functions.php - Contains much of the backend logic, including definitions for custom post types, modified search functionality, and widgets
+		
+		style.css - CSS definitions
+		
+		header.php - Template for the header that appears across the PFOND site, including menus
+		
+		home-page.php - Front page for all disease sites
+		
+		news-page.php - Page template for the 'News' page
+		
+		page-experts.php - Page template for 'Experts' page
+		
+		page-links.php - Page template for 'Links' page
+		
+CONTACT
+
+Please contact pfond.site@gmail.com for any questions or comments. Alternatively, visit the Wasserman Lab website (http://www.cmmt.ubc.ca/research/investigators/wasserman/lab) to contact researchers directly.
