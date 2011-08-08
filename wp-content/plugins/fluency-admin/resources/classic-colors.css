@@ -1,0 +1,211 @@
+body {background:#CDE;}
+.metabox-holder {color:#333;}
+#poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, 
+#media-upload a.del-link, #media-upload a.delete, .ui-tabs-nav a, a {color:#06C;}
+.button:hover, #wphead #viewsite a:hover, #the-comment-list .comment a:hover, #rightnow a:hover, a:hover, 
+.subsubsub a:hover, .subsubsub a.current:hover, #login form .submit input:hover, div.dashboard-widget-submit input:hover, 
+#edit-slug-buttons a.save:hover, #media-upload a.delete:hover, #media-upload a.del-link:hover, .ui-tabs-nav a:hover, #user_info a:hover {color:#467;}
+a:active, a:focus {color:#06C !important;}
+#wpwrap {border-left:140px solid #123;background-color:#CDE;}
+#wpbody {background-color:#CDE;}
+#wphead {background:#F6F9FF url('images/classic/postbox-bg.gif') repeat-x bottom left;}
+#wphead h1 {color:#F6F6F6;}
+#wphead h1 a {color:#234;}
+#wphead h1 a #site-visit-button {color:#F6F9FF;background:url('images/classic/button-gradient.png') repeat-x center top;border:1px solid #234;}
+#wphead h1 a:hover #site-title {color:#456;}
+#wphead h1 a:hover #site-visit-button {color:#FFF;}
+#wphead h1 a:active #site-visit-button {color:#FFF;}
+#wphead #user_info {color:#456;}
+#wphead #user_info p a {color:#456;}
+#wphead #favorite-actions a {color:#234;}
+#wphead #favorite-first {background:url('images/classic/button-gradient.png') repeat-x top left;border-color:#234 !important;}
+#wphead #favorite-first a {color:#F6F9FF;text-shadow:0 -1px 0 #3F3F3F;}
+#wphead #favorite-first a:hover {color:#FFF;}
+#wphead #favorite-toggle {background:url('images/classic/fav-arrow.png') no-repeat center left;}
+#wphead #favorite-inside {background:#293C4F;border-color:#234;}
+#wphead .favorite-action {border-top:1px solid #234;}
+#wphead #favorite-actions .favorite-action a {color:#F6F9FF;text-shadow:0 -1px 0 #3F3F3F;}
+#wphead #favorite-actions .favorite-action a:hover {background:rgba(0,16,32,0.25);color:#FFF;}
+
+#adminmenu {background:#123 url('images/classic/fluency2.png') no-repeat top left;}
+.hiddenMenu #adminmenu {background-image:url('images/classic/hidden-fluency2.png');}
+#adminmenu a {color:#F6F9FF;}
+#adminmenu .menu-top-last a.menu-top {background:url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+#adminmenu a:hover, #adminmenu div.wp-submenu ul a:hover, #adminmenu a:active, #adminmenu div.wp-submenu ul a:active, #adminmenu a:focus, #adminmenu div.wp-submenu ul a:focus {color:#FFF !important;}
+#adminmenu li {background-color:#123;}
+.hiddenMenu #adminmenu li.wp-first-item, .hiddenMenu #adminmenu li.wp-has-submenu, .hiddenMenu #adminmenu li.menu-top.menu-top-last {background:transparent url('images/classic/menu-item-bg.png') no-repeat scroll left bottom;}
+#adminmenu li.wp-menu-separator-last {background:transparent url('images/classic/menu-arrows.png') no-repeat scroll left top;}
+#adminmenu li div.wp-menu-image {background-image:url('images/classic/menu.png') !important;}
+#adminmenu li a {color:#F6F9FF;}
+#adminmenu li a.wp-has-submenu, #adminmenu li.menu-top-first a.wp-has-submenu, #adminmenu li a.menu-top {border:0px none transparent;background:url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+#adminmenu li.hover a.wp-has-submenu, #adminmenu li.menu-top-first.hover a.wp-has-submenu, #adminmenu li.hover a.menu-top {background-position:right bottom;}
+#adminmenu li a.wp-has-current-submenu #adminmenu li.menu-top-first a.wp-has-current-submenu {border:0px none transparent;}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, #adminmenu li.menu-top > a.current {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+#adminmenu li .wp-menu-toggle {color:#345;}
+#adminmenu li.wp-has-submenu .wp-menu-toggle, #adminmenu li.wp-menu-open .wp-menu-toggle {background:transparent url('images/classic/menu-bits.png') repeat-x scroll 8px -45px;}
+.hiddenMenu #adminmenu li.wp-has-submenu .wp-menu-toggle, .hiddenMenu #adminmenu li.wp-menu-open .wp-menu-toggle {color:transparent;background:transparent url('images/classic/hidden-menu-bits.png') repeat-x scroll -8px -45px;}
+.hiddenMenu #adminmenu li .wp-menu-toggle, .hiddenMenu #adminmenu li.wp-has-submenu .wp-menu-toggle, .hiddenMenu #adminmenu li.wp-menu-open .wp-menu-toggle {color:transparent;width:6px;background:transparent url('images/classic/hidden-menu-bits.png') repeat-x scroll -8px -45px;}
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu:hover, #adminmenu li.menu-top > a.current:hover {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+#adminmenu li.wp-has-current-submenu.hover a.wp-has-current-submenu, #adminmenu li.menu-top.hover > a.current {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom right;}
+#adminmenu li.menu-top:hover, #adminmenu li.menu-top.hover {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+#adminmenu li.wp-has-submenu.hover .wp-menu-toggle, #adminmenu li.wp-has-submenu:hover .wp-menu-toggle {background:transparent url('images/classic/menu-bits.png') no-repeat scroll 8px -112px;}
+.hiddenMenu #adminmenu li.wp-has-submenu.hover .wp-menu-toggle, .hiddenMenu #adminmenu li.wp-has-submenu:hover .wp-menu-toggle {background:transparent url('images/classic/hidden-menu-bits.png') no-repeat scroll -8px -112px;}
+#adminmenu li.wp-first-item.current, #adminmenu li.wp-has-current-submenu {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom left;}
+.hiddenMenu #adminmenu li.wp-first-item.current, .hiddenMenu #adminmenu li.wp-has-current-submenu, .hiddenMenu #adminmenu li.current {background:#012 url('images/classic/menu-item-bg.png') no-repeat bottom left !important;}
+#adminmenu li.wp-has-current-submenu .wp-menu-toggle {background:transparent url('images/classic/menu-bits.png') no-repeat scroll 8px -112px;}
+.hiddenMenu #adminmenu li.wp-has-current-submenu .wp-menu-toggle {background:transparent url('images/classic/hidden-menu-bits.png') no-repeat scroll -8px -112px;}
+#adminmenu li.wp-has-current-submenu.wp-menu-open .wp-menu-toggle, #adminmenu li.wp-has-current-submenu:hover .wp-menu-toggle {background:transparent url('images/classic/menu-bits.png') no-repeat scroll 8px -112px;}
+.hiddenMenu #adminmenu li.wp-has-current-submenu.wp-menu-open .wp-menu-toggle, .hiddenMenu #adminmenu li.wp-has-current-submenu:hover .wp-menu-toggle {background:transparent url('images/classic/hidden-menu-bits.png') no-repeat scroll -8px -112px;}
+.hiddenMenu #adminmenu li.wp-has-submenu.hover, .hiddenMenu #adminmenu li.wp-first-item.current.hover, .hiddenMenu #adminmenu li.wp-has-current-submenu.hover {background-position:right bottom !important;}
+.hiddenMenu #adminmenu li.menu-top.menu-top-last:hover, .hiddenMenu #adminmenu li.menu-top.menu-top-last.hover {background-color:#012;}
+#adminmenu .menu-top-single a.wp-has-submenu, #adminmenu.folded li.menu-top-single {border:0px none;}
+#adminmenu .menu-top-last a.wp-has-submenu, #adminmenu.folded li.menu-top-last {border-bottom:0 none;}
+#adminmenu li div.wp-submenu ul {background:rgba(0,16,32,0.9);}
+*:first-child+html #adminmenu li div.wp-submenu ul {background:#234;}
+#adminmenu li div.wp-submenu ul li {border-bottom:1px solid #345;}
+#adminmenu li div.wp-submenu ul li.wp-first-item {border-top:1px solid #345;}
+#adminmenu li div.wp-submenu ul li a {color:#F6F9FF;}
+#adminmenu li div.wp-submenu ul li a:hover {background:rgba(0,16,32,0.9) !important;color:#FFF !important;}
+*:first-child+html #adminmenu li div.wp-submenu ul li a:hover {background:#012 !important;}
+#adminmenu li div.wp-submenu ul li.current, .hiddenMenu #adminmenu li div.wp-submenu ul li.current {background:#012 !important	;color:#FFFFFF;}
+#adminmenu .wp-submenu li.current, #adminmenu .wp-submenu li.current a, #adminmenu .wp-submenu li.current a:hover, #adminmenu .wp-submenu .current a.current {background:#012;color:#FFFFFF;border-color:#234 !important;}
+#adminmenu li.wp-has-current-submenu a.wp-has-submenu {color:#FFFFFF;}
+#adminmenu li div.wp-submenu ul li em {color:#456;}
+.hiddenMenu #adminmenu li.wp-first-item, .hiddenMenu #adminmenu li.wp-has-submenu, .hiddenMenu #adminmenu li.menu-top.menu-top-last, .hiddenMenu #adminmenu li.menu-top {width:34px;background:transparent url('images/classic/menu-item-bg.png') no-repeat scroll left bottom;}
+
+#wpbody-content {background:#F3F9FF url('images/classic/title-gradient.png') repeat-x top left;border:1px solid #FFF;}
+#wpbody-content .wrap h2 {color:#EEEEEE;text-shadow:0 1px 1px #000000;}
+#wpbody-content .wrap h2 a.button.add-new-h2 {background:#666 url('images/classic/button-gradient.png') repeat-x scroll left center;border-color:#234 !important;color:#FFF !important;text-shadow:0 1px 0 rgba(0, 0, 0, 0.7);padding:4px 10px;position:relative;z-index:1000;}
+#wpbody-content .wrap h2 a.button.add-new-h2:hover {background-position:left top;border-color:#234 !important;}
+#wpbody-content .wrap h2 a.button.add-new-h2:active {background-position:left bottom;}
+#wpbody-content .wrap h2 a.menu-tabs {background:#F3F9FF;}
+#wpbody-content .icon32 {background-image:url('images/classic/icons32.png') !important;}
+body.options-writing-php #wpbody-content .wrap h3, body.options-discussion-php #wpbody-content .wrap h3, body.options-media-php #wpbody-content .wrap h3, body.options-permalink-php #wpbody-content .wrap h3, body.tools-php #wpbody-content .wrap h3, body.profile-php #wpbody-content .wrap h3, body.themes-php #wpbody-content .wrap h3, body.appearance_page_custom-background #wpbody-content .wrap h3, body.appearance_page_custom-header #wpbody-content .wrap h3, body.update-core-php #wpbody-content .wrap h3, #wpbody-content .wrap #fluency-options h3 {background:-moz-linear-gradient(center top , #F3F9FF, #E6ECF6);background:-webkit-gradient(linear,top left, bottom left, from(#F3F9FF), to(#E6ECF6));}
+.wrap .bordertitle {border-bottom:0 none #FFF;}
+ul.subsubsub {color:transparent;background:#D5E6F2 url('../../../../wp-admin/images/blue-grad.png') repeat-x scroll left bottom;}
+ul.subsubsub a {background:#F2F2F2 url('../../../../wp-admin/images/blue-grad.png') repeat-x scroll left top;color:#333;border-color:#BCD;}
+ul.subsubsub a:hover, ul.subsubsub a:focus, ul.subsubsub a:active {background:#666 url('images/white-grad.png') repeat-x scroll left top;color:#333 !important;}
+ul.subsubsub a.current {background:#456 url('images/classic/button-gradient.png') repeat-x scroll left bottom;color:#FFF;border-color:#234;}
+ul.subsubsub a.current:hover, ul.subsubsub a.current:active, ul.subsubsub a.current:focus {background-position:left center;color:#FFF !important;}
+.button, .button-secondary {border-color:#999;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+.button-primary {background:#456 url('images/classic/button-gradient.png') repeat-x scroll left top;border-color:#234 !important;color:#EEE !important;}
+.submit .button-primary {background:#456 url('images/classic/button-gradient.png') repeat-x scroll left top;border-color:#234 !important;}
+.button-primary:hover, .submit .button-primary:hover {background:#06C;border-color:#039 !important;color:#FFF !important;}
+.button-secondary:hover {border-color:#BDF;}
+.submitbox .submitdelete {border:1px solid #DDD;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;color:#C00;}
+.submitbox .submitdelete:hover {background:#C00;border-color:#900;}
+#wpcontent div.tablenav .actions select {border-color:#ABC;}
+div.tablenav .actions input.button-secondary, div.tablenav a.button-secondary {border-color:#ABC;background:#CDE url('images/classic/fav-gradient.gif') repeat-x scroll left top;}
+h3.dashboard-widget-title, h3.dashboard-widget-title span, h3.dashboard-widget-title small, .find-box-head {background:#DFDFDF url('images/gray-grad.png') repeat-x scroll left top;color:#333333;}
+.tablenav .tablenav-pages a:hover {color:#06C;border-color:#06C;}
+p.search-box input#post-search-input, p.search-box input#tag-search-input, p.search-box input#category-search-input, p.search-box input#media-search-input, p.search-box input#link-search-input, p.search-box input#link-category-search-input, p.search-box input#page-search-input, p.search-box input#comment-search-input, p.search-box input#plugin-search-input, p.search-box input#user-search-input {border:1px solid #234;}
+p.search-box input.button {color:#EEE;background:#456 url('images/classic/button-gradient.png') repeat-x scroll left center;border-color:#234;text-shadow:0 1px 0 rgba(0, 0, 0, 0.7);}
+p.search-box input.button:hover {border-color:#234;}
+#major-publishing-actions {background:#EEE;}
+#postcustomstuff table td input {border:1px solid #CCC;}
+#postcustomstuff table td select#metakeyselect {border:1px solid #CCC;}
+#postcustomstuff table td textarea {border:1px solid #CCC;}
+#postcustomstuff table td.submit input#addmetasub {border:1px solid #999;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+#postcustomstuff table td.submit input#addmetasub:hover {border-color:#535353;}
+#postcustomstuff table td .updatemeta, #postcustomstuff table td .deletemeta {border-color:#999;}
+#postcustomstuff table td span#enternew, #postcustomstuff table td span#cancelnew {border:1px solid #999;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;color:#333;}
+#postcustomstuff table td span#cancelnew, #postcustomstuff table td .deletemeta {color:#C00;}
+#postcustomstuff table td span#cancelnew:hover, #postcustomstuff table td .deletemeta:hover {background:#C00;border-color:#900;color:#FFF;}
+div#tagsdiv div.inside input#newtag {border:1px solid #CCC;}
+div#postexcerpt div.inside textarea#excerpt {border:1px solid #CCC;}
+div#trackbacksdiv div.inside input#trackback_url {border:1px solid #CCC;}
+div#passworddiv div.inside input#post_password {border:1px solid #CCC;}
+#categorydiv div.ui-tabs-panel, #linkcategorydiv div.ui-tabs-panel {border:2px solid #EEE;}
+ul#category-tabs li.ui-tabs-selected { background:#EEE;}
+
+#screen-meta-links {border-left:1px solid #456;border-right:1px solid #234;}
+#screen-meta-links a.show-settings {color:#EEE;text-shadow:0 1px 0 rgba(0, 0, 0, 0.7);background-image:url('images/screen-options-right.png');}
+#screen-meta-links a.show-settings-link-open {background-color:rgba(0,16,32,0.25);background-image:url('images/screen-options-right-up.png');}
+#screen-meta-links a.show-settings:hover {color:#FFF;background-color:rgba(0,16,32,0.25);}
+#screen-meta-links a.show-settings:active, #screen-meta-links a.show-settings:focus {color:#EEE !important;}
+#screen-options-link-wrap, #contextual-help-link-wrap {border-right:1px solid #456;border-left:1px solid #234;}
+#screen-meta .screen-meta-toggle {background:none;}
+#screen-options-wrap, #contextual-help-wrap {color:#FFF;background-color:rgba(16,32,48,0.95);}
+*:first-child+html #screen-options-wrap {background-color:#333;}
+*:first-child+html #contextual-help-wrap {background-color:#333;}
+
+#dashboard_quick_press h4 label {color:#333;}
+#dashboard-widgets #dashboard_quick_press form p.submit .cancel {border:1px solid #DCDCDC;color:#C00;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+#dashboard-widgets #dashboard_quick_press form p.submit .cancel:hover {background:#C00;border-color:#900;color:#FFF;}
+#dashboard-widgets div.inside div.rss-widget ul li {border-bottom:1px solid #EEE;}
+#dashboard_right_now .inside p.sub {color:#666;background:#EAF2FA;border-bottom-color:#BCD;}
+#dashboard_right_now .b, #dashboard_right_now .b a {color:#06C;}
+#dashboard_right_now div.versions {color:#333;}
+#dashboard_right_now div.versions span#wp-version-message {color:#666;}
+#dashboard_right_now div.versions span#wp-version-message span.b {color:#999;}
+#posts-filter td.column-name a.row-title, #posts-filter td.column-title strong a, #posts-filter td.column-username strong a {color:#333;}
+#posts-filter td.post-title strong a, #posts-filter td.column-name strong a {color:#333;}
+#posts-filter td.post-title p, #posts-filter td.column-name p {color:#666;}
+#posts-filter td.post-title span a, #posts-filter td.column-name span a, #posts-filter td.column-title span a, #posts-filter td.column-username span a {border:1px solid #DDD;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+#posts-filter td.post-title span.edit a:hover, #posts-filter td.post-title span.inline a:hover, #posts-filter td.post-title span.view a:hover, 
+#posts-filter td.column-name span.edit a:hover, #posts-filter td.column-name span.inline a:hover,
+#posts-filter td.column-title span.edit a:hover, #posts-filter td.column-title span.view a:hover,
+#posts-filter td.column-username span.edit a:hover {background:#06C;border-color:#039;color:#FFF;}
+#posts-filter td.post-title span.delete a, #posts-filter td.column-name span.delete a, #posts-filter td.column-title span.delete a, #posts-filter td.column-username span.delete a {color:#C00;}
+#posts-filter td.post-title span.delete a:hover, #posts-filter td.column-name span.delete a:hover, #posts-filter td.column-title span.delete a:hover, #posts-filter td.column-username span.delete a:hover {background:#C00;border-color:#900;color:#FFF;}
+#the-comment-list .comment-item h4 a {color:#666;}
+#the-comment-list p.comment-actions, #the-comment-list p.comment-actions span, #the-comment-list p.comment-actions span:hover {color:#FFF;}
+#the-comment-list .row-actions span a {border:1px solid #DDD;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+#the-comment-list span.approve a {color:#090;}
+#the-comment-list span.approve a:hover {color:#FFF;background:#090;border-color:#060;}
+#the-comment-list span.unapprove a {color:#F90;}
+#the-comment-list span.unapprove a:hover {color:#FFF;background:#F90;border-color:#C60;}
+#the-comment-list span.edit a:hover {background:#06C;border-color:#039;color:#FFF;}
+#the-comment-list span.quickedit a:hover {background:#06C;border-color:#039;color:#FFF;}
+#the-comment-list span.reply a:hover {background:#06C;border-color:#039;color:#FFF;}
+#the-comment-list span.spam a:hover {background:#06C;border-color:#039;color:#FFF;}
+#the-comment-list span.delete a {color:#C00;}
+#the-comment-list span.delete a:hover {background:#C00;border-color:#900;color:#FFF;}
+.form-table tr {background:none;}
+.form-table tr.even th, .form-table tr.even td{background-color:#e6ecf6;}
+.form-table tr.selected th,.form-table tr.selected td {background-color:rgba(0,102,204,0.1);}
+form#search-plugins select {border:1px solid #CCC;}
+form#search-plugins input#search-field {border:1px solid #CCC;}
+div#templateside ul li a span.highlight {background-color:#DDD;color:#467;}
+#template textarea {border:1px solid #CCC;}
+.stuffbox {background-color:#FFF;}
+form#widgets-filter div.nav, div#widget-content div.nav {background-color:#EEE;border:1px solid #DDD;}
+form#widgets-filter div.nav select, div#widget-content div.nav select {border-color:#CCC;}
+form#widgets-filter div.nav input.button-secondary, div#widget-content div.nav input.button-secondary {border-color:#CCC;background:#CCC url('images/classic/fav-gradient.gif') repeat-x scroll left top;}
+ul#widget-list li.widget-list-item h4.widget-title {border:1px solid #CCC;background:#DFDFDF url('images/gray-grad.png') repeat-x scroll left top;}
+ul.widget-control-list li h4.widget-title, #dragHelper li.widget-list-control-item h4.widget-title {border:1px solid #CCC;background:#DFDFDF url('images/gray-grad.png') repeat-x scroll left top;color:#333;}
+li.widget-list-control-item h4.widget-title a, #dragHelper li.widget-list-control-item h4.widget-title a, #draghelper li.widget-list-control-item h4.widget-title a:visited {color:#06C;}
+li.widget-list-control-item h4.widget-title a:hover, #dragHelper li.widget-list-control-item h4.widget-title a:hover {color:#467;}
+div#sortHelper {border:1px dotted #CCC;}
+ul.widget-control-list li div.widget-control {border:1px solid #CCC;background-color:#EEE;}
+ul.widget-control-list li div.widget-control div.widget-control-actions a.widget-action {border:1px solid #999;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+.plugins .inactive, .plugins .inactive th, .plugins .inactive td, tr.inactive + tr.plugin-update-tr .plugin-update {color:#999;}
+#footer {border-left:140px solid #123;background:#CDE url('images/classic/fav-gradient.gif') repeat-x scroll left bottom;color:#789;}
+#footer a:link, #footer a:visited, #footer a:hover, #footer a:active {color:#456;}
+#footer #footer-thankyou, #footer #footer-upgrade {color:#234;}
+#footer #footer-thankyou a, #footer #footer-upgrade a {color:#456;}
+#footer #fluency-footer {color:#234;}
+#TB_window {background:#DDD;border:4px solid #222;}
+#TB_load {background:#DDD;border:4px solid #222;}
+#TB_iframeContent html {background-color:#DDD;}
+#media-upload {background-color:#DDD;}
+#media-upload form.media-upload-form {background:#F3F9FF url('images/classic/title-gradient.png') repeat-x top left;border:1px solid #FFF;}
+#media-upload form#image-form div.media-blank p {color:#999;}
+#media-upload form.media-upload-form div#media-items {border:1px solid #DDD;background:#FFF;}
+#media-upload form.media-upload-form div#media-items div.media-item {border-top:1px solid #DDD;}
+#media-upload form.media-upload-form div#media-items div.media-item table.describe td.field input {border:1px solid #CCC;}
+#media-upload form.media-upload-form div#media-items div.media-item table.describe td textarea {border:1px solid #CCC;}
+#media-upload form.media-upload-form div#media-items div.media-item table.describe td p.help {color:#666;}
+#media-upload form.media-upload-form div#media-items div.media-item table.describe td a.del-link {color:#C00;border:1px solid #DDD;background:#F2F2F2 url('images/white-grad.png') repeat-x scroll left top;}
+#media-upload form.media-upload-form div#media-items div.media-item table.describe td a.del-link:hover {background:#C00;border-color:#900;color:#FFF;}
+#media-upload #filter div.tablenav .actions select {border-color:#CCC;}
+#media-upload div#media-upload-header {background:#EEE url('images/postbox-bg.gif') repeat-x bottom left;}
+body#media-upload ul#sidemenu a {background:#DDD url('images/fav-gradient.gif') repeat-x scroll left bottom;border:1px solid #DDD;border-bottom-color:#FFF;color:#666;}
+body#media-upload ul#sidemenu a:hover, body#media-upload ul#sidemenu a.current {background:#F6F6F6;border-color:#FFF;border-bottom-color:#F6F6F6;color:#333;}
+
+#update-nag {border:1px solid #E6DB55;}
+
+/* color specific */
+.widget, #widget-list .widget-top, .postbox, #titlediv, #poststuff .postarea, .stuffbox, #widgets-left .sidebar-name, #available-widgets .widget-holder, div.widgets-sortables, #widgets-left .inactive {border-color:#BCD;}
+.widget-top a.widget-action, #widgets-left .sidebar-name-arrow, .meta-box-sortables .postbox:hover .handlediv {background:transparent url('images/classic/menu-bits.png') no-repeat 0 -208px;}
+.widefat,.widefat td, .widefat th, #install-plugins .plugins td, #install-plugins .plugins th {border-color:#BCD;}

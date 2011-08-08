@@ -1,0 +1,1 @@
+<?php/*Template Name: Page Redirect*/?><?php		if (have_posts()) : while (have_posts()) : the_post();			wp_redirect( get_home_url(null, get_the_content()) );			endwhile; endif;	?>

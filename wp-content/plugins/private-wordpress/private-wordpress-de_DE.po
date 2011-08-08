@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: private-wordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-20 17:18+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael Schmidt-Voigt <schmidt-voigt@gmx.de>\n"
+"Language-Team:  <mostafa.s1990@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY, FEDERAL REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:19
+msgid "Sorry, you must login to view this blog."
+msgstr "Bitte loggen Sie sich ein."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:27
+msgid " is actived, but the protection function is currently disabled, your blog may be visible to everyone on the web."
+msgstr "wurde aktiviert, muss jedoch noch konfiguriert werden, um den Zugang zu Ihrem Blog zu beschränken."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:36
+#, php-format
+msgid "The blog is currently under the protection of <a href=\"%s\">Private WordPress</a>."
+msgstr "Dieser Blog wird von <a href=\"%s\">Private WordPress</a> geschützt."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:42
+msgid "Modify more privacy options by going to Private WordPress plugin settings page."
+msgstr "Unter Einstellungen > Private WP können Sie Private WordPress konfigurieren."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:46
+msgid "Additional Options"
+msgstr "Zusätzliche Einstellungen"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:64
+msgid "Function <strong>auth_redirect</strong> doesn't available, <strong>Alternate method</strong> was selected automatically."
+msgstr "Auf die Funktion <strong>auth_redirect</strong> kann nicht zugegriffen werden, die <strong>Alternative Methode</strong> wird verwendet."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:75
+msgid "Protection"
+msgstr "Zugriffsbeschränkung"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:81
+msgid "Enable"
+msgstr "aktiviert"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:88
+msgid "Disable"
+msgstr "deaktiviert"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:91
+msgid "Enable this options means start redirecting all guests to login page <strong>from now on</strong>."
+msgstr "Aktivieren, um <strong>ab sofort</strong> alle unangemeldeten Besucher des Blogs auf die Login-Seite umzuleiten."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:96
+msgid "Protecting Method"
+msgstr "Methode"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:102
+msgid "Normal"
+msgstr "Normal"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:104
+msgid "Recommend"
+msgstr "(empfohlen)"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:110
+msgid "Alternate"
+msgstr "Alternative"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:112
+msgid "Choose this if you encoraged problems using the normal method"
+msgstr "(falls Probleme mit der normalen Methode auftreten)"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:117
+msgid "Login message"
+msgstr "Login Meldung"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:120
+msgid "This message will be shown to visitors who haven't logged in already. HTML tags are allowed."
+msgstr "Diese Meldung wird unangemeldeten Besuchern angezeigt. HTML-Tags erlaubt."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:131
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:134
+msgid "Note that the plugin may not capatable with cache plugins like WP Super Cache, be careful if cache plugins are currently enabled. I will look into this. :)"
+msgstr "Bitte beachten Sie, dass Cache Plugins zu Problemen führen können. Seien Sie vorsichtig, falls Sie Cache Plugins aktiviert haben. Ich arbeite daran. :)"
+
+#~ msgid "Private WordPress"
+#~ msgstr "وردپرس شخصی"
+#~ msgid "is actived"
+#~ msgstr "فعال است"
+#~ msgid "your blog may be visible to everyone on the web."
+#~ msgstr "وبلاگ شما برای همه قابل دسترس است."
+#~ msgid "Private WP"
+#~ msgstr "وردپرس شخصی"
+#~ msgid "Function"
+#~ msgstr "تابع"
+#~ msgid "auth_redirect"
+#~ msgstr "بازپرسی"
+#~ msgid "t available,"
+#~ msgstr "دسترس پذیر"
+#~ msgid "Alternate method"
+#~ msgstr "روش گزینش مسیر"
+#~ msgid "was selected automatically."
+#~ msgstr "انتخاب میتواند خودکار انجام شود."
+#~ msgid "from now on"
+#~ msgstr "هم اکنون فعال است"
+#~ msgid "t logged in already."
+#~ msgstr "برای خواندن "
+#~ msgid " HTML tags are allowed."
+#~ msgstr "تگ های اچ تی ام ال قبول است."
+

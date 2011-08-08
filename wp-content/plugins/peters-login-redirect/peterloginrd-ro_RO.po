@@ -1,0 +1,284 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Peters'login redirect v2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-04 07:26-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Peter <peter@keung.biz>\n"
+"Language-Team: jibo.ro <contact@jibo.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: ROMANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: wplogin_redirect.php:241
+#: ../peters-login-redirect/wplogin_redirect.php:241
+#: ../trunk/wplogin_redirect.php:241
+msgid "Register"
+msgstr "Inregistrare"
+
+#: wplogin_redirect.php:245
+#: ../peters-login-redirect/wplogin_redirect.php:245
+#: ../trunk/wplogin_redirect.php:245
+msgid "Site Admin"
+msgstr "Administrator site"
+
+#: wplogin_redirect.php:382
+#: ../peters-login-redirect/wplogin_redirect.php:382
+#: ../trunk/wplogin_redirect.php:382
+msgid "ERROR: Non-local or invalid URL submitted for user "
+msgstr "EROARE: URL-ul trimis de utilizator este invalid sau nu este local"
+
+#: wplogin_redirect.php:392
+#: ../peters-login-redirect/wplogin_redirect.php:392
+#: ../trunk/wplogin_redirect.php:392
+msgid "ERROR: Unknown error updating user-specific URL for user "
+msgstr "EROARE: Eroare necunoscuta la actualizarea URL-ului specific pentru utilizator"
+
+#: wplogin_redirect.php:401
+#: ../peters-login-redirect/wplogin_redirect.php:401
+#: ../trunk/wplogin_redirect.php:401
+msgid "ERROR: Non-existent username submitted "
+msgstr "Eroare: A fost introdus un username inexistent"
+
+#: wplogin_redirect.php:414
+#: ../peters-login-redirect/wplogin_redirect.php:414
+#: ../trunk/wplogin_redirect.php:414
+msgid "Successfully updated user-specific URLs"
+msgstr "URL-urile specifice utilizatorilor actualizate cu succes"
+
+#: wplogin_redirect.php:460
+#: ../peters-login-redirect/wplogin_redirect.php:460
+#: ../trunk/wplogin_redirect.php:460
+msgid "ERROR: Non-local or invalid URL submitted for role "
+msgstr "EROARE: URL-ul trimis pentru rol este invalid sau nu este local"
+
+#: wplogin_redirect.php:469
+#: ../peters-login-redirect/wplogin_redirect.php:469
+#: ../trunk/wplogin_redirect.php:469
+msgid "ERROR: Unknown error updating role-specific URL for role "
+msgstr "EROARE: Eroare necunoscuta la actualizarea URL-ului pentru rol"
+
+#: wplogin_redirect.php:478
+#: ../peters-login-redirect/wplogin_redirect.php:478
+#: ../trunk/wplogin_redirect.php:478
+msgid "ERROR: Non-existent role submitted "
+msgstr "EROARE: Rolul introdus este inexistent"
+
+#: wplogin_redirect.php:491
+#: ../peters-login-redirect/wplogin_redirect.php:491
+#: ../trunk/wplogin_redirect.php:491
+msgid "Successfully updated role-specific URLs"
+msgstr "URL-urile specifice rolurilor actualizate cu succes"
+
+#: wplogin_redirect.php:543
+#: ../peters-login-redirect/wplogin_redirect.php:543
+#: ../trunk/wplogin_redirect.php:543
+msgid "ERROR: Non-local or invalid URL submitted for level "
+msgstr "EROARE: URL invalid sau extern trimis pentru nivel"
+
+#: wplogin_redirect.php:552
+#: ../peters-login-redirect/wplogin_redirect.php:552
+#: ../trunk/wplogin_redirect.php:552
+msgid "ERROR: Unknown error updating level-specific URL for level "
+msgstr "EROARE: Eroare necunoscuta la actualizare URL pentru nivel"
+
+#: wplogin_redirect.php:561
+#: ../peters-login-redirect/wplogin_redirect.php:561
+#: ../trunk/wplogin_redirect.php:561
+msgid "ERROR: Non-existent level submitted "
+msgstr "EROARE: Nivelul trimis este inexistent"
+
+#: wplogin_redirect.php:574
+#: ../peters-login-redirect/wplogin_redirect.php:574
+#: ../trunk/wplogin_redirect.php:574
+msgid "Successfully updated level-specific URLs"
+msgstr "Nivelele specifice URL-urilor actualizate cu succes"
+
+#: wplogin_redirect.php:609
+#: ../peters-login-redirect/wplogin_redirect.php:609
+#: ../trunk/wplogin_redirect.php:609
+msgid "ERROR: Unknown database problem removing URL for &#34;all other users&#34; "
+msgstr "EROARE: Eroare de baza de date necunoscuta la inlaturarea URL-urilor pentru &#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:612
+#: ../peters-login-redirect/wplogin_redirect.php:612
+#: ../trunk/wplogin_redirect.php:612
+msgid "Successfully removed URL for &#34;all other users&#34; "
+msgstr "S-a inlaturat cu succes URL-ul pentru &#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:620
+#: ../peters-login-redirect/wplogin_redirect.php:620
+#: ../trunk/wplogin_redirect.php:620
+msgid "ERROR: Non-local or invalid URL submitted "
+msgstr "EROARE: S-a trimis un URL inexistent sau nu este local"
+
+#: wplogin_redirect.php:631
+#: ../peters-login-redirect/wplogin_redirect.php:631
+#: ../trunk/wplogin_redirect.php:631
+msgid "ERROR: Unknown database problem updating URL for &#34;all other users&#34; "
+msgstr "EROARE: Problema necunoscuta la actualizarea URL-ului in baza de date pentru &#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:634
+#: ../peters-login-redirect/wplogin_redirect.php:634
+#: ../trunk/wplogin_redirect.php:634
+msgid "Successfully updated URL for &#34;all other users&#34;"
+msgstr "URL actualizat cu succes pentru &#34;toti ceilalti utilizatori&#34;"
+
+#: wplogin_redirect.php:772
+#: ../peters-login-redirect/wplogin_redirect.php:772
+#: ../trunk/wplogin_redirect.php:772
+msgid "Manage login redirect rules"
+msgstr "Modifica regulile de redirectionare a autentificarii"
+
+#: wplogin_redirect.php:774
+#: ../peters-login-redirect/wplogin_redirect.php:774
+#: ../trunk/wplogin_redirect.php:774
+msgid "Define different local URLs to which different users, users with specific roles, users with specific levels, and all other users will be redirected."
+msgstr "Specifica URL-uri locale diferite pentru care utilizatorii diferiti, utilizatorii cu roluri specifice, utilizatorii cu nivele specifice si toti ceilalti utilizatori vor fi redirectionati."
+
+#: wplogin_redirect.php:775
+#: ../peters-login-redirect/wplogin_redirect.php:775
+#: ../trunk/wplogin_redirect.php:775
+msgid "Note that you can use the syntax <strong>[variable]username[/variable]</strong> in your URLs so that the system will build a dynamic URL upon each login, replacing that text with the users username."
+msgstr "Tine minte ca poti folosi sintaxa <strong>[variable]username[/variable]</strong> in URL-urile tale pentru ca sistemul sa construiasca un URL dinamic dupa fiecare autentificare, schimband acel text cu numele utilizatorului."
+
+#: wplogin_redirect.php:777
+#: ../peters-login-redirect/wplogin_redirect.php:777
+#: ../trunk/wplogin_redirect.php:777
+msgid "Specific users"
+msgstr "Utilizatori specifici"
+
+#: wplogin_redirect.php:781
+#: ../peters-login-redirect/wplogin_redirect.php:781
+#: ../trunk/wplogin_redirect.php:781
+msgid "Username"
+msgstr "Username"
+
+#: wplogin_redirect.php:782
+#: wplogin_redirect.php:802
+#: wplogin_redirect.php:823
+#: ../peters-login-redirect/wplogin_redirect.php:782
+#: ../peters-login-redirect/wplogin_redirect.php:802
+#: ../peters-login-redirect/wplogin_redirect.php:823
+#: ../trunk/wplogin_redirect.php:782
+#: ../trunk/wplogin_redirect.php:802
+#: ../trunk/wplogin_redirect.php:823
+msgid "URL"
+msgstr "URL"
+
+#: wplogin_redirect.php:787
+#: wplogin_redirect.php:807
+#: wplogin_redirect.php:828
+#: ../peters-login-redirect/wplogin_redirect.php:787
+#: ../peters-login-redirect/wplogin_redirect.php:807
+#: ../peters-login-redirect/wplogin_redirect.php:828
+#: ../trunk/wplogin_redirect.php:787
+#: ../trunk/wplogin_redirect.php:807
+#: ../trunk/wplogin_redirect.php:828
+msgid "Add:"
+msgstr "Adauga:"
+
+#: wplogin_redirect.php:789
+#: ../peters-login-redirect/wplogin_redirect.php:789
+#: ../trunk/wplogin_redirect.php:789
+msgid "Select a username"
+msgstr "Selecteaza un username"
+
+#: wplogin_redirect.php:792
+#: wplogin_redirect.php:812
+#: wplogin_redirect.php:834
+#: wplogin_redirect.php:841
+#: ../peters-login-redirect/wplogin_redirect.php:792
+#: ../peters-login-redirect/wplogin_redirect.php:812
+#: ../peters-login-redirect/wplogin_redirect.php:834
+#: ../peters-login-redirect/wplogin_redirect.php:841
+#: ../trunk/wplogin_redirect.php:792
+#: ../trunk/wplogin_redirect.php:812
+#: ../trunk/wplogin_redirect.php:834
+#: ../trunk/wplogin_redirect.php:841
+msgid "URL:"
+msgstr "URL:"
+
+#: wplogin_redirect.php:794
+#: wplogin_redirect.php:814
+#: wplogin_redirect.php:836
+#: wplogin_redirect.php:842
+#: ../peters-login-redirect/wplogin_redirect.php:794
+#: ../peters-login-redirect/wplogin_redirect.php:814
+#: ../peters-login-redirect/wplogin_redirect.php:836
+#: ../peters-login-redirect/wplogin_redirect.php:842
+#: ../trunk/wplogin_redirect.php:794
+#: ../trunk/wplogin_redirect.php:814
+#: ../trunk/wplogin_redirect.php:836
+#: ../trunk/wplogin_redirect.php:842
+msgid "Update"
+msgstr "Actualizeaza"
+
+#: wplogin_redirect.php:797
+#: ../peters-login-redirect/wplogin_redirect.php:797
+#: ../trunk/wplogin_redirect.php:797
+msgid "Specific roles"
+msgstr "Roluri specifice"
+
+#: wplogin_redirect.php:801
+#: ../peters-login-redirect/wplogin_redirect.php:801
+#: ../trunk/wplogin_redirect.php:801
+msgid "Role"
+msgstr "Rol"
+
+#: wplogin_redirect.php:809
+#: ../peters-login-redirect/wplogin_redirect.php:809
+#: ../trunk/wplogin_redirect.php:809
+msgid "Select a role"
+msgstr "Selecteaza un rol"
+
+#: wplogin_redirect.php:817
+#: ../peters-login-redirect/wplogin_redirect.php:817
+#: ../trunk/wplogin_redirect.php:817
+msgid "Specific levels"
+msgstr "Nivele specifice"
+
+#: wplogin_redirect.php:821
+#: ../peters-login-redirect/wplogin_redirect.php:821
+#: ../trunk/wplogin_redirect.php:821
+msgid "Level"
+msgstr "Nivel"
+
+#: wplogin_redirect.php:822
+#: ../peters-login-redirect/wplogin_redirect.php:822
+#: ../trunk/wplogin_redirect.php:822
+msgid "Order"
+msgstr "Ordoneaza"
+
+#: wplogin_redirect.php:830
+#: ../peters-login-redirect/wplogin_redirect.php:830
+#: ../trunk/wplogin_redirect.php:830
+msgid "Select a level"
+msgstr "Selecteaza un nivel"
+
+#: wplogin_redirect.php:833
+#: ../peters-login-redirect/wplogin_redirect.php:833
+#: ../trunk/wplogin_redirect.php:833
+msgid "Order:"
+msgstr "Ordine:"
+
+#: wplogin_redirect.php:839
+#: ../peters-login-redirect/wplogin_redirect.php:839
+#: ../trunk/wplogin_redirect.php:839
+msgid "All other users"
+msgstr "Toti utilizatorii ramasi"
+
+#: wplogin_redirect.php:842
+#: ../peters-login-redirect/wplogin_redirect.php:842
+#: ../trunk/wplogin_redirect.php:842
+msgid "Delete"
+msgstr "Sterge"
+

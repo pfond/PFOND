@@ -1,0 +1,125 @@
+/*** LIKE WP3 NAV TABS ********************************************************/
+.nav-tab {
+	color: #c1c1c1;
+	text-shadow: rgba(255,255,255,1) 0 1px 0;
+	font-size: 12px;
+	line-height: 16px;
+	display: inline-block;
+	padding: 4px 14px 6px;
+	text-decoration: none;
+	margin: 0 6px -1px 0;
+	border-style: solid;
+	border-color: #ccc #ccc #f9f9f9;
+	border-width: 1px 1px 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.nav-tab-active {
+	border-width: 1px;
+	color: #464646;
+}
+.nav-tab-title {
+	border-width: 0px;
+	color: #464646;
+}
+
+.wrap h2 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0;
+}
+
+h2 .nav-tab{
+	padding: 4px 20px 6px;
+	font: italic normal normal 24px/35px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+}
+
+/*** CUSTOM QUERY FORM ********************************************************/
+.bpmod-form-query fieldset{
+	border: 1px solid #ABC;
+	padding: 0 18px 6px;
+	margin: 6px;
+}
+.bpmod-form-query fieldset legend{
+	padding: 0 6px;
+}
+.bpmod-form-query h4{
+	text-transform: uppercase;
+	margin: 6px 0;
+}
+.bpmod-form-query fieldset div.column{
+	width:50%;
+	float: left;
+}
+.bpmod-form-query dt{
+	margin-bottom: 6px;
+}
+.bpmod-form-query dd{
+	margin-left: 20px;
+}
+.bpmod-form-query input.line[type=text]{
+	display: block;
+}
+
+/* collapsing fieldsets and other only js features */
+.bpmod-form-query fieldset.collapsed{
+	border-width: 0;
+	padding-left: 14px;
+}
+.bpmod-form-query legend.foldable{
+	cursor: pointer;
+}
+.bpmod-form-query legend.foldable:before{
+	content: "\25bc\00a0"; /* down triangle */
+}
+.bpmod-form-query fieldset.collapsed legend.foldable:before{
+	content: "\25b6\00a0"; /* right triangle */
+}
+.bpmod-form-query h4.order-by a{
+	cursor: pointer;
+}
+
+/*** BACKEND TABLES ***********************************************************/
+#bpmod-contents-table .column-author{
+	width: 15%;
+}
+#bpmod-users-table .column-author{
+	width: 20%;
+}
+.bpmod-table .column-flags {
+	width: 30%;
+}
+.bpmod-table .column-own-contents, .bpmod-table .column-other-contents {
+	width: 40%;
+}
+.bpmod-table td strong{
+	margin-left: 12px;
+}
+.bpmod-table td strong:first-child, .bpmod-table td br+strong{
+	margin-left: 0;
+}
+
+tr.vim-current .row-actions{
+	visibility:visible;
+}
+.vim-hint{
+	display: none;
+}
+.vim-current span.vim-hint{
+	display: inline;
+}
+.row-actions .mark-spammer,.row-actions .delete-content{
+	color: #BC0B0B;
+}
+.row-actions .unmark-spammer,.row-actions .ignore-content{
+	color: #006505;
+}
+.row-actions .edit-content,.row-actions .mark-moderated{
+	color: #D98500;
+}
+

@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/fluency-admin\n"
+"POT-Creation-Date: 2010-06-24 11:03+0000\n"
+"PO-Revision-Date: 2010-06-25 09:50+0100\n"
+"Last-Translator: W3B WebAgency - BeWeb <web@w3b.it>\n"
+"Language-Team: W3B - BeWeb <web@w3b.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: wp-fluency-2.php:316
+#@ fluency-admin
+msgid "is a plugin by"
+msgstr "è un plugin di"
+
+#: wp-fluency-2.php:316
+#@ fluency-admin
+msgid "Donate"
+msgstr "Fai una donazione"
+
+#: wp-fluency-2.php:324
+#@ fluency-admin
+msgid "Akismet Stats"
+msgstr "Statistiche Akismet"
+
+#: wp-fluency-2.php:488
+#@ fluency-admin
+msgid "Cheatin&#8217; uh?"
+msgstr "Imbrogliamo eh?!"
+
+#: wp-fluency-2.php:524
+#@ fluency-admin
+msgid "Options saved."
+msgstr "Opzioni salvate."
+
+#: wp-fluency-2.php:531
+#@ fluency-admin
+msgid "Fluency Admin Options"
+msgstr "Opzioni Fluency Admin"
+
+#: wp-fluency-2.php:537
+#@ fluency-admin
+msgid "Fluency Login Style"
+msgstr "Stile pagina di login di Fluency"
+
+#: wp-fluency-2.php:538
+#@ fluency-admin
+msgid "Style the WordPress login to match the rest of the Fluency Admin theme."
+msgstr "Modifica lo stile della pagina di login di WordPress in modo che corrisponda al tema di Fluency Admin"
+
+#: wp-fluency-2.php:541
+#@ fluency-admin
+msgid "Login screen custom logo"
+msgstr "Logo personalizzato al login"
+
+#: wp-fluency-2.php:544
+#@ fluency-admin
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>250px wide</strong>, and <strong>50px high</strong>."
+msgstr "Specificare il percorso completo per l'immagine scelta, per migliori risultati usare un immagine che sia <strong>larga 250px</strong> e <strong>alta 50px</strong>."
+
+#: wp-fluency-2.php:548
+#@ fluency-admin
+msgid "Login screen custom link"
+msgstr "Link personalizzato nella pagina di Login"
+
+#: wp-fluency-2.php:551
+#@ fluency-admin
+msgid "Specify the URL that your custom logo will link through to."
+msgstr "Specificare l'URL a cui rimandare cliccando sul logo."
+
+#: wp-fluency-2.php:560
+#@ fluency-admin
+msgid "Custom logo (top of menu)"
+msgstr "Logo personalizzato (in cima al menù)"
+
+#: wp-fluency-2.php:580
+#@ fluency-admin
+msgid "Custom menu width"
+msgstr "Larghezza del menù personalizzata"
+
+#: wp-fluency-2.php:583
+#@ fluency-admin
+msgid "If you find that some menu items are wrapping across multiple lines you can increase the width of the menu.<br/>Default is 140px. <strong>Leave empty to reset.</strong>"
+msgstr "Nel caso alcuni elementi del menù occupino più righe, è possibile aumentare la larghezza del menu. <br/> iI valore predefinito è 140px. <strong>Lasciare il campo vuoto per resettare l'impostazione.</ strong>"
+
+#: wp-fluency-2.php:587
+#@ fluency-admin
+msgid "Fixed position menu"
+msgstr "Menù a posizione fissa"
+
+#: wp-fluency-2.php:588
+#@ fluency-admin
+msgid "Disable if you have lots of plugins that add menu items, or a small screen."
+msgstr "Disabilitare se ci sono molti plugin che aggiungono voci ai menù, o si sta usando uno schermo piccolo."
+
+#: wp-fluency-2.php:591
+#@ fluency-admin
+msgid "Menu item icons"
+msgstr "Icone per voci di menù"
+
+#: wp-fluency-2.php:592
+#@ fluency-admin
+msgid "Disable to hide icons from expanded menu."
+msgstr "Disabilita per nascondere le icone dai menù aperti."
+
+#: wp-fluency-2.php:595
+#@ fluency-admin
+msgid "Hover menus"
+msgstr "Effetto Hover"
+
+#: wp-fluency-2.php:596
+#@ fluency-admin
+msgid "Disable to switch back to the click-to-open style menus while retaining the Fluency look."
+msgstr "Disabilita per tornare ad uno stile dei menù clicca-e-apri ma mantenendo l'aspetto di Fluency."
+
+#: wp-fluency-2.php:599
+#@ fluency-admin
+msgid "Menu Hot Keys"
+msgstr "Hot Keys per i menù"
+
+#: wp-fluency-2.php:600
+#@ fluency-admin
+msgid "Disable if you encounter a conflict with another plugin, or if you just need them."
+msgstr "Disabilita se si verifica un conflitto con un altro plugin o se semplicemente non serve."
+
+#: wp-fluency-2.php:603
+#@ fluency-admin
+msgid "iPad 'friendly' menus"
+msgstr "Menù iPad friendly"
+
+#: wp-fluency-2.php:604
+#@ fluency-admin
+msgid "Tada! No setting needed for this, just visit your wp-admin on your iPad and you'll get the 'finger-friendly' menus instantly.<br/>Note: Hover menus are auto-disabled on the iPad... because you can't, um, hover."
+msgstr "Tadà! Non serve nessuna impostazione per questo, visita semplicemente la pagina wp-admin sul tuo iPad e avrai istantaneamente i menù 'finger-friendly'. Nota: lo stile Hover dei menù è disabilitato automaticamente sull'iPad... perchè non si può, mmh, usare l'hover."
+
+#: wp-fluency-2.php:664
+#@ fluency-admin
+msgid "Save Changes"
+msgstr "Salva Cambiamenti"
+
+#: wp-fluency-2.php:676
+#@ fluency-admin
+msgid "Fluency Options"
+msgstr "Fluency: Opzioni"
+
+#: wp-fluency-2.php:333
+#@ fluency-admin
+msgid "If you find any bugs, or any conflicts with other plugins please report them via one of the links below."
+msgstr "Se sui riscontrano bugs o conflitti con altri plugins, notificarli usando uno they links sottostanti. "
+
+#: wp-fluency-2.php:334
+#@ fluency-admin
+msgid "If you have any feature requests, please send them via one of the support links below."
+msgstr "Se desiderate nuove funzionalità, si prega di notificarlo usando uno dei link di supporto sottoelencati."
+
+#: wp-fluency-2.php:335
+#@ fluency-admin
+msgid "For support:"
+msgstr "Per supporto:"
+
+#: wp-fluency-2.php:338
+#@ fluency-admin
+msgid "For more information:"
+msgstr "Per altre informazioni:"
+
+#: wp-fluency-2.php:349
+#@ fluency-admin
+msgid "Coffee"
+msgstr "Caffè"
+
+#: wp-fluency-2.php:336
+#@ fluency-admin
+msgid "Fluency support on the WordPress.org support forums"
+msgstr "Supporto per Fluency sul forum di supporto di WordPress.org"
+
+#: wp-fluency-2.php:337
+#@ fluency-admin
+msgid "Fluency support on help.deanjrobinson.com"
+msgstr "Supporto per Fluency su help.deanjrobinson.com"
+
+#: wp-fluency-2.php:339
+#@ fluency-admin
+msgid "Fluency Admin on WordPress.org"
+msgstr "Fluency Admin su WordPress.org"
+
+#: wp-fluency-2.php:340
+#@ fluency-admin
+msgid "Homepage for Fluency Admin"
+msgstr "Homepage per Fluency Admin"
+
+#: wp-fluency-2.php:350
+#@ fluency-admin
+msgid "Light"
+msgstr "Leggero"
+
+#: wp-fluency-2.php:389
+#@ fluency-admin
+msgid "WP Admin"
+msgstr "WP Admin"
+
+#: wp-fluency-2.php:479
+#@ fluency-admin
+msgid "Hide Menu"
+msgstr "Nascondi Menù"
+
+#: wp-fluency-2.php:508
+#@ fluency-admin
+msgid "<strong>Admin menu was not hidden</strong><br/>Make sure you've still go the Admin Bar enabled and have selected one of the Admin Bar drop down options (otherwise you won't have any admin menu at all... and that won't be good)"
+msgstr "<strong>Il menù amministrativo non è stato nascosto</strong> <br/> Assicurati di aver ancora la Barra di Amministrazione attiva e di aver selezionato una delle opzioni a discesa della Barra di Amministrazione (altrimenti non vedrai alcun menù amministrativo ... e ciò non sarà affatto positivo)"
+
+#: wp-fluency-2.php:533
+#@ fluency-admin
+msgid "Login/Register Screen Customizations"
+msgstr "Personalizzazioni per la schermata di Login/Registrazione"
+
+#: wp-fluency-2.php:556
+#@ fluency-admin
+msgid "Logo Customizations"
+msgstr "Personalizzazioni Logo"
+
+#: wp-fluency-2.php:564
+#, php-format
+#@ fluency-admin
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>%spx wide</strong>, and <strong>50px high</strong>."
+msgstr "Specificare l'URL completo per l'immagine scelta, per risultati migliori usare un'immagine che sia <strong>larga %spx</strong> e <strong>alta 50px.</strong>"
+
+#: wp-fluency-2.php:568
+#@ fluency-admin
+msgid "Custom logo (for collapsed menu)"
+msgstr "Logo personalizzato (per il menù compatto)"
+
+#: wp-fluency-2.php:571
+#@ fluency-admin
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>34px wide</strong>, and <strong>50px high</strong>."
+msgstr "Specificare l'URL completo per l'immagine scelta, per risultati migliori usare un'mmagine che sia  <strong>larga 34px</strong> e <strong>alta 50px.</strong>"
+
+#: wp-fluency-2.php:576
+#@ fluency-admin
+msgid "Menu Customizations"
+msgstr "Personalizzazioni Menù"
+
+#: wp-fluency-2.php:608
+#@ fluency-admin
+msgid "Admin Menu Configurations"
+msgstr "Configurazioni Menù Amministrativo"
+
+#: wp-fluency-2.php:615
+#@ fluency-admin
+msgid "WP Admin Bar"
+msgstr "Barra di Amministrazione di WP"
+
+#: wp-fluency-2.php:617
+#@ fluency-admin
+msgid "The WP Admin Bar can be enabled/disabled (for when viewing your blog and/or accessing the admin area) via your "
+msgstr "La Barra di Amministrazione può essere abilitata/disabilitata (per quando visualizzi il tuo blog e/o accedi all'area amministrativa) tramite la "
+
+#: wp-fluency-2.php:617
+#: wp-fluency-2.php:644
+#@ fluency-admin
+msgid "profile page"
+msgstr "pagina del profilo"
+
+#: wp-fluency-2.php:621
+#@ fluency-admin
+msgid "Admin bar drop-down menus"
+msgstr "Menù a discesa della Barra di Amministrazione"
+
+#: wp-fluency-2.php:623
+#@ fluency-admin
+msgid "Disable the Admin drop-down menus in the WP Admin Bar (Default)."
+msgstr "Disabilita i menù a discesa nella Barra di Amministrazione di WP (Default)."
+
+#: wp-fluency-2.php:624
+#@ fluency-admin
+msgid "Enable single drop-down menu with access to all wp-admin areas."
+msgstr "Abilita un singolo menù a discesa con accesso a tutte le aree in wp-admin."
+
+#: wp-fluency-2.php:625
+#@ fluency-admin
+msgid "Enable multiple drop-down menus, one for each main wp-admin area."
+msgstr "Attiva i menù a discesa multipli, uno per ogni area principale in wp-admin."
+
+#: wp-fluency-2.php:626
+#@ fluency-admin
+msgid "Drop-down menus won't be visible if you've disabled the WP Admin Bar completely."
+msgstr "I menù a discesa non saranno visibili se hai disattivato completamente la Barra di Amministrazione di WP."
+
+#: wp-fluency-2.php:632
+#@ fluency-admin
+msgid "Hide Admin Menu"
+msgstr "Nascondi Menù Amministrativo"
+
+#: wp-fluency-2.php:634
+#@ fluency-admin
+msgid "Show the admin menu. (Default)"
+msgstr "Mostra il Menù Amministrativo. (Default)"
+
+#: wp-fluency-2.php:635
+#@ fluency-admin
+msgid "Hide the admin menu."
+msgstr "Nascondi il Menù Amministrativo."
+
+#: wp-fluency-2.php:636
+#@ fluency-admin
+msgid "This will hide the 'standard' admin menu (the one on the left), can only be used if you've enabled one of the Admin Bar drop down options and have not disabled the Admin Bar completely."
+msgstr "In questo modo il menù amministrativo 'standard' (quello a sinistra) verrà nascosto, può essere utilizzato solo se hai attivato una delle opzioni per i menù a discesa della Barra di Amministrazione e non è stata disattivata del tutto la Barra di Amministrazione."
+
+#: wp-fluency-2.php:644
+#@ fluency-admin
+msgid "When you have the WP Admin Bar plus one of the above drop-down menu options enabled you can choose to hide the 'standard' admin menu on the left."
+msgstr "Quando vengono abilitati la Barra di Amministrazione di WP più uno dei menù a discesa di cui sopra,<br />si può scegliere di nascondere il menù amministrativo 'standard' a sinistra."
+
+#: wp-fluency-2.php:644
+#@ fluency-admin
+msgid "You can turn the Admin Bar on/off on your "
+msgstr "È possibile attivare/disattivare la Barra di Amministrazione sulla tua "
+
+#: wp-fluency-2.php:650
+#@ fluency-admin
+msgid "Color Customizations"
+msgstr "Personalizzazioni Colore"
+
+#: wp-fluency-2.php:654
+#@ fluency-admin
+msgid "Menu Background Color"
+msgstr "Colore di fondo del Menù"
+
+#: wp-fluency-2.php:656
+#@ fluency-admin
+msgid "Select a Color"
+msgstr "Seleziona un colore"
+
+#: wp-fluency-2.php:656
+#@ fluency-admin
+msgid "Reset"
+msgstr "Reset"
+
+#: wp-fluency-2.php:657
+#@ fluency-admin
+msgid "Pick a color to use as the background color for the admin menu. <strong>Darkish colours work best.</strong><br/>The rest of the admin area will use the 'grey' color scheme when a custom menu color is selected, regardless of a user's profile setting."
+msgstr "Scegli un colore da utilizzare come colore di fondo per il menù di amministrazione. <strong>I colori scuri sono i più adatti</strong>.<br/>Quando verrà selezionato un colore personalizzata per il menù, il resto dell'area amministrativa userà uno schema colore 'grigio', indipendentemente dalle impostazioni di profilo degli utenti."
+
+#: wp-fluency-2.php:466
+#@ fluency-admin
+msgid "Unhide Menu"
+msgstr "Mostra Menù"
+
+#: wp-fluency-2.php:188
+#@ fluency-admin
+msgid "Just Write"
+msgstr "Scrivi e basta"
+
+#: wp-fluency-2.php:188
+#@ fluency-admin
+msgid "Just Write <small>Click to turn on</small>"
+msgstr "Scrivi e basta  <small>Clicca per attivare</small>"
+

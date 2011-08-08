@@ -1,0 +1,159 @@
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/fluency-admin\n"
+"POT-Creation-Date: 2010-06-24 11:03+0000\n"
+"PO-Revision-Date: 2010-07-05 13:49+0800\n"
+"Last-Translator: 南宫小骏 <jackytsu@vip.qq.com>\n"
+"Language-Team: 南宫小骏 <jackytsu@vip.qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ../\n"
+
+#: wp-fluency-2.php:168
+msgid "is a plugin by"
+msgstr "插件开发者"
+
+#: wp-fluency-2.php:168
+msgid "Donate"
+msgstr "捐助"
+
+#: wp-fluency-2.php:176
+msgid "Akismet Stats"
+msgstr "Akismet 统计"
+
+#: wp-fluency-2.php:186
+msgid "Cheatin&#8217; uh?"
+msgstr "意欲何为？"
+
+#: wp-fluency-2.php:206
+msgid "Options saved."
+msgstr "配置保存完毕。"
+
+#: wp-fluency-2.php:210
+msgid "Fluency Admin Options"
+msgstr "Fluency Admin 选项"
+
+#: wp-fluency-2.php:215
+msgid "Fluency Login Style"
+msgstr "Fluency 登录样式"
+
+#: wp-fluency-2.php:216
+msgid "Style the WordPress login to match the rest of the Fluency Admin theme."
+msgstr "使登录页面应用 Fluency Admin 的主题样式。"
+
+#: wp-fluency-2.php:219
+msgid "Login screen custom logo"
+msgstr "自定义登录页面 Logo"
+
+#: wp-fluency-2.php:222
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>250px wide</strong>, and <strong>50px high</strong>."
+msgstr "指定 Logo 的完整路径，为保证最佳显示效果，请使用<strong>宽度为 250px</strong>，<strong>高度为 50px</strong>的图片。"
+
+#: wp-fluency-2.php:226
+msgid "Login screen custom link"
+msgstr "自定义登录页面链接"
+
+#: wp-fluency-2.php:229
+msgid "Specify the URL that your custom logo will link through to."
+msgstr "指定自定义 Logo 的链接地址。"
+
+#: wp-fluency-2.php:233
+msgid "Custom logo (top of menu)"
+msgstr "自定义 Logo（顶部菜单）"
+
+#: wp-fluency-2.php:241
+msgid "Custom menu width"
+msgstr "自定义菜单宽度"
+
+#: wp-fluency-2.php:244
+msgid "If you find that some menu items are wrapping across multiple lines you can increase the width of the menu.<br/>Default is 140px. <strong>Leave empty to reset.</strong>"
+msgstr "如果你发现菜单项自动换行显示，你可以增加菜单的宽度。<br/>默认为 140px。<strong>留空表示恢复默认值。</strong>"
+
+#: wp-fluency-2.php:248
+msgid "Fixed position menu"
+msgstr "固定菜单位置"
+
+#: wp-fluency-2.php:249
+msgid "Disable if you have lots of plugins that add menu items, or a small screen."
+msgstr "当你拥有许多插件增加的菜单项，或者屏幕较小的时候禁用此选项。"
+
+#: wp-fluency-2.php:252
+msgid "Menu item icons"
+msgstr "菜单项图标"
+
+#: wp-fluency-2.php:253
+msgid "Disable to hide icons from expanded menu."
+msgstr "禁用此项则不显示菜单的图标。"
+
+#: wp-fluency-2.php:256
+msgid "Hover menus"
+msgstr "悬浮菜单"
+
+#: wp-fluency-2.php:257
+msgid "Disable to switch back to the click-to-open style menus while retaining the Fluency look."
+msgstr "禁用此项则可以将菜单切换为原始的点击展开样式。"
+
+#: wp-fluency-2.php:260
+msgid "Menu Hot Keys"
+msgstr "菜单快捷键"
+
+#: wp-fluency-2.php:261
+msgid "Disable if you encounter a conflict with another plugin, or if you just need them."
+msgstr "如果与其他的插件有冲突可以禁用此选项，否则可以按照需要启用。"
+
+#: wp-fluency-2.php:264
+msgid "iPad 'friendly' menus"
+msgstr "iPad “友好”菜单"
+
+#: wp-fluency-2.php:265
+msgid "Tada! No setting needed for this, just visit your wp-admin on your iPad and you'll get the 'finger-friendly' menus instantly.<br/>Note: Hover menus are auto-disabled on the iPad... because you can't, um, hover."
+msgstr "嗒嗒！没有必要设置这个选项，只需使用 iPad 访问后台管理页面，你就可以看到为触摸屏特别优化的菜单了。<br/>注意：悬浮菜单在 iPad 上将会被自动禁用，因为你没办法，呃~~~~~~~~~~~~~悬浮。"
+
+#: wp-fluency-2.php:271
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: wp-fluency-2.php:282
+msgid "Fluency Options"
+msgstr "Fluency 选项"
+
+#: wp-fluency-2.php:291
+msgid "If you find any bugs, or any conflicts with other plugins please report them via one of the links below."
+msgstr "如果你发现了任何的错误，或者与其他插件有冲突，请通过点击下面的链接报告给我。"
+
+#: wp-fluency-2.php:292
+msgid "If you have any feature requests, please send them via one of the support links below."
+msgstr "如果你有任何的特性需求，请通过点击下面的链接来告诉我。"
+
+#: wp-fluency-2.php:293
+msgid "For support:"
+msgstr "支持链接："
+
+#: wp-fluency-2.php:294
+msgid "<a href=\"http://wordpress.org/tags/fluency-admin?forum_id=10\" target=\"_blank\">Fluency support on the WordPress.org support forums</a>"
+msgstr "<a href=\"http://wordpress.org/tags/fluency-admin?forum_id=10\" target=\"_blank\">Fluency 架设在 WordPress.org 支持论坛上的支持版面</a>"
+
+#: wp-fluency-2.php:295
+msgid "<a href=\"http://help.deanjrobinson.com/groups/fluency-admin/\" target=\"_blank\">Fluency support on help.deanjrobinson.com</a>"
+msgstr "<a href=\"http://help.deanjrobinson.com/groups/fluency-admin/\" target=\"_blank\">Fluency 架设在 help.deanjrobinson.com 站点的支持栏目</a>"
+
+#: wp-fluency-2.php:296
+msgid "For more information:"
+msgstr "更多详情："
+
+#: wp-fluency-2.php:297
+msgid "<a href=\"http://wordpress.org/extend/plugins/fluency-admin/\" target=\"_blank\">Fluency Admin on WordPress.org</a>"
+msgstr "<a href=\"http://wordpress.org/extend/plugins/fluency-admin/\" target=\"_blank\">Fluency Admin 在 WordPress.org 上的页面</a>"
+
+#: wp-fluency-2.php:298
+msgid "<a href=\"http://deanjrobinson.com/projects/fluency-admin/\" target=\"_blank\">Homepage for Fluency Admin</a>"
+msgstr "<a href=\"http://deanjrobinson.com/projects/fluency-admin/\" target=\"_blank\">Fluency Admin 官方首页</a>"
+
+#: wp-fluency-2.php:307
+msgid "Coffee"
+msgstr "Coffee"
+

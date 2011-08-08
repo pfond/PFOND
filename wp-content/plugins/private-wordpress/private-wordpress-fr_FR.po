@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Private WordPress v1.3.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-10-07 19:54+0200\n"
+"Last-Translator: lian <lian00@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: private.php:33
+#@ private-wordpress
+msgid "<p class=\"message\">Sorry, please login to view this blog.</p>"
+msgstr "<p class=\"message\">Désolé, vous devez vous connecter pour voir ce blog.</p>"
+
+#: private.php:42
+#@ private-wordpress
+msgid " is actived, but the protection function is currently disabled, your blog may be visible to everyone on the web."
+msgstr " est activé mais la fonction de protection est actuellement désactivée. Votre blog peut être visible par n'importe quel visiteur."
+
+#: private.php:51
+#, php-format
+#@ private-wordpress
+msgid "The blog is currently under the protection of <a href=\"%s\">Private WordPress</a>."
+msgstr "Le blog est actuellement sous la protection de <a href=\"%s\">Private WordPress</a>."
+
+#: private.php:57
+#@ private-wordpress
+msgid "Modify more privacy options by going to Private WordPress plugin settings page."
+msgstr "Modifier plus d'options de zone privée en vous rendant à la page de réglage du plugin Private Wordpress."
+
+#: private.php:61
+#@ private-wordpress
+msgid "Additional Options"
+msgstr "Options supplémentaires"
+
+#: private.php:80
+#@ private-wordpress
+msgid "Note that the plugin may not capatable with cache plugins like WP Super Cache, be careful if cache plugins are currently enabled. I will look into this. :)"
+msgstr "Veuillez prendre en considération que le plugin puisse ne pas être compatible avec des plugins de cache comme WP Super Cache. Soyez vigilant dans le cas où des plugins de cache sont activés. Le problème est à l'étude."
+
+#: private.php:84
+#@ private-wordpress
+msgid "Global Status"
+msgstr "Status global"
+
+#: private.php:88
+#@ private-wordpress
+msgid "Protection"
+msgstr ""
+
+#: private.php:94
+#@ private-wordpress
+msgid "Enable"
+msgstr "Activer"
+
+#: private.php:101
+#@ private-wordpress
+msgid "Disable"
+msgstr "Désactiver"
+
+#: private.php:104
+#@ private-wordpress
+msgid "Enable this options means start redirecting all guests to login page <strong>from now on</strong>."
+msgstr "Activer cette option signifie rediriger tous les visiteurs vers la page de connexion <strong> à partir de maintenant</strong>"
+
+#: private.php:109
+#@ private-wordpress
+msgid "When a guest comes ..."
+msgstr "Quand un visiteur se présente ..."
+
+#: private.php:113
+#@ private-wordpress
+msgid "Method"
+msgstr "Méthode"
+
+#: private.php:119
+#@ private-wordpress
+msgid "Redirect to login page use function <code>auth_redirect</code>"
+msgstr "La redirection vers la page de connexion utilise la fonction <code>auth_redirect</code>"
+
+#: private.php:121
+#@ private-wordpress
+msgid "Recommend."
+msgstr "Recommandé."
+
+#: private.php:127
+#@ private-wordpress
+msgid "Show a image/page"
+msgstr "Montrer une image/page"
+
+#: private.php:129
+#@ private-wordpress
+msgid "Replace the default image <code>sorry.png</code> / default page <code>sorry.html</code> in the plugin directory. The default image & page is prepared for the <a href=\"http://www.reuters.com/article/rbssITServicesConsulting/idUSPEK37237320090622\">Internet boycott in China on Jul/1/2009</a>."
+msgstr "Remplacer l'image par défaut <code>sorry.png</code> / la page par défaut  <code>sorry.html</code> dans le répertoire du plugin. L'image et la page par défauts sont conçues pour <a href=\"http://www.reuters.com/article/rbssITServicesConsulting/idUSPEK37237320090622\">le boycott Internet vis à vis de la Chine à partir du 1 juillet 2009</a>."
+
+#: private.php:135
+#@ private-wordpress
+msgid "Redirect to login page use function <code>wp_redirect</code>"
+msgstr "La redirection vers la page de connexion utilise la fonction <code>wp_redirect</code>"
+
+#: private.php:137
+#@ private-wordpress
+msgid "Choose this if you encoraged problems using the normal method."
+msgstr "Veuillez choisir ceci si vous rencontrez des problèmes avec la méthode normale."
+
+#: private.php:143
+#@ private-wordpress
+msgid "RSS & Atom feed"
+msgstr "Flux RSS & Atom"
+
+#: private.php:149
+#@ private-wordpress
+msgid "Allow all feed access"
+msgstr "Autoriser l'accès à tous les flux"
+
+#: private.php:151
+#@ private-wordpress
+msgid "Guests may continue read your blog via feed readers."
+msgstr "Les visiteurs peuvent continuer à lire votre blog à travers des lecteurs de flux."
+
+#: private.php:157
+#@ private-wordpress
+msgid "Deny all guests' feed access"
+msgstr "Interdire l'accès aux flux à tous les visiteurs"
+
+#: private.php:159
+#@ private-wordpress
+msgid "No one besides you are able to access the feed."
+msgstr "Personne d'autre que vous ne peut accèder aux flux."
+
+#: private.php:164
+#@ private-wordpress
+msgid "Tell something to your guests ..."
+msgstr "Veuillez rédiger un message pour vos visiteurs..."
+
+#: private.php:168
+#@ private-wordpress
+msgid "Login message"
+msgstr "Message de connexion"
+
+#: private.php:171
+#@ private-wordpress
+msgid "This message will be shown to visitors who haven't logged in already. HTML tags are allowed."
+msgstr "Ce message sera affiché pour les visiteurs qui ne se sont pas déjà connectés. Vous pouvez utiliser de l'HTML."
+
+#: private.php:171
+#@ private-wordpress
+msgid " To apply WordPress's default style, use <code>&lt;p class=\"message\"&gt;</code> and <code>&lt;/p&gt;</code> to wrap your own message."
+msgstr "Pour appliquer le style par défaut de Wordpress, utilisez <code>&lt;p class=\"message\"&gt;</code> et <code>&lt;/p&gt;</code> pour entourer votre propre message."
+
+#: private.php:182
+msgid "Save Changes"
+msgstr ""
+

@@ -1,0 +1,282 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluency Admin\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/fluency-admin\n"
+"POT-Creation-Date: 2011-02-27 09:35:50+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-02-28 01:07+0200\n"
+"Last-Translator: Tercan Keskin <info@tercan.net>\n"
+"Language-Team: Tercan Keskin <info@tercan.net>\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-fluency-2.php:316
+msgid "is a plugin by"
+msgstr "eklentisi"
+
+#: wp-fluency-2.php:316
+msgid "Donate"
+msgstr "Bağış yap"
+
+#: wp-fluency-2.php:324
+msgid "Akismet Stats"
+msgstr "Akismet İstatistikleri"
+
+#: wp-fluency-2.php:333
+msgid "If you find any bugs, or any conflicts with other plugins please report them via one of the links below."
+msgstr "Herhangi bir hata veya diğer eklentileri ile herhangi bir çakışma bulursanız aşağıdaki bağlantılardan birisi aracılığıyla bildirebilirsiniz."
+
+#: wp-fluency-2.php:334
+msgid "If you have any feature requests, please send them via one of the support links below."
+msgstr "Eğer herhangi bir özellik isteğiniz varsa, aşağıdaki destek bağlantıları aracılığıyla gönderebilirsiniz."
+
+#: wp-fluency-2.php:335
+msgid "For support:"
+msgstr "Destek:"
+
+#: wp-fluency-2.php:336
+msgid "Fluency support on the WordPress.org support forums"
+msgstr "WordPress.org destek forumlarında Fluency destek"
+
+#: wp-fluency-2.php:337
+msgid "Fluency support on help.deanjrobinson.com"
+msgstr " help.deanjrobinson.com üzerinda Fluency destek"
+
+#: wp-fluency-2.php:338
+msgid "For more information:"
+msgstr "Daha fazla bilgi için:"
+
+#: wp-fluency-2.php:339
+msgid "Fluency Admin on WordPress.org"
+msgstr "WordPress.org üzerinde Fluency Admin"
+
+#: wp-fluency-2.php:340
+msgid "Homepage for Fluency Admin"
+msgstr "Fluency Admin Ana sayfa"
+
+#: wp-fluency-2.php:349
+msgid "Coffee"
+msgstr "Kahve"
+
+#: wp-fluency-2.php:350
+msgid "Light"
+msgstr "Açık"
+
+#: wp-fluency-2.php:389
+msgid "WP Admin"
+msgstr "WP Admin"
+
+#: wp-fluency-2.php:479
+msgid "Hide Menu"
+msgstr "Menüyü gizle"
+
+#: wp-fluency-2.php:488
+msgid "Cheatin&#8217; uh?"
+msgstr "Cheatin&#8217; uh?"
+
+#: wp-fluency-2.php:508
+msgid "<strong>Admin menu was not hidden</strong><br/>Make sure you've still go the Admin Bar enabled and have selected one of the Admin Bar drop down options (otherwise you won't have any admin menu at all... and that won't be good)"
+msgstr "<strong>Admin menüsü gizli değil</strong><br/>Admin Bar'ın etkin olduğuna ve Admin bar açılır-kapanır menülerinden birini seçtiğinize emin olun. (Aksi takdirde hiç bir admin menüsü olmayacak... ve bu durum o kadar da iyi olmayacaktır)"
+
+#: wp-fluency-2.php:524
+msgid "Options saved."
+msgstr "Ayarlar kaydedildi."
+
+#: wp-fluency-2.php:531
+msgid "Fluency Admin Options"
+msgstr "Fluency Admin Ayarları"
+
+#: wp-fluency-2.php:533
+msgid "Login/Register Screen Customizations"
+msgstr "Giriş/Kayıt Ekranı Ayarları"
+
+#: wp-fluency-2.php:537
+msgid "Fluency Login Style"
+msgstr "Fluency Giriş Stili"
+
+#: wp-fluency-2.php:538
+msgid "Style the WordPress login to match the rest of the Fluency Admin theme."
+msgstr "WordPress giriş ekranı Fluency Admin stiline göre düzenlenir."
+
+#: wp-fluency-2.php:541
+msgid "Login screen custom logo"
+msgstr "Giriş ekranı özel logo"
+
+#: wp-fluency-2.php:544
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>250px wide</strong>, and <strong>50px high</strong>."
+msgstr "Seçtiğiniz resmin tam adresini belirtin, en iyi görüntü için <strong>250px genişlik</strong> ve <strong>50px yükseklik</strong> boyutlarında olmalı."
+
+#: wp-fluency-2.php:548
+msgid "Login screen custom link"
+msgstr "Giriş ekranı özel bağlantı"
+
+#: wp-fluency-2.php:551
+msgid "Specify the URL that your custom logo will link through to."
+msgstr "Özel logonuza verilecek bağlantı adresini belirtin."
+
+#: wp-fluency-2.php:556
+msgid "Logo Customizations"
+msgstr "Logo Ayarları"
+
+#: wp-fluency-2.php:560
+msgid "Custom logo (top of menu)"
+msgstr "Özel logo (menü üstü)"
+
+#: wp-fluency-2.php:564
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>%spx wide</strong>, and <strong>50px high</strong>."
+msgstr "Seçtiğiniz resmin tam adresini belirtin, en iyi görüntü için <strong>250px genişlik</strong> ve <strong>50px yükseklik</strong> boyutlarında olmalı."
+
+#: wp-fluency-2.php:568
+msgid "Custom logo (for collapsed menu)"
+msgstr "Özel logo (açılır kapanır menü için)"
+
+#: wp-fluency-2.php:571
+msgid "Specify the full URL for your chosen image, for best results use an image that is <strong>34px wide</strong>, and <strong>50px high</strong>."
+msgstr "Seçtiğiniz resmin tam adresini belirtin, en iyi görüntü için <strong>250px genişlik</strong> ve <strong>50px yükseklik</strong> boyutlarında olmalı."
+
+#: wp-fluency-2.php:576
+msgid "Menu Customizations"
+msgstr "Menü Ayarları"
+
+#: wp-fluency-2.php:580
+msgid "Custom menu width"
+msgstr "Özel menü genişliği"
+
+#: wp-fluency-2.php:583
+msgid "If you find that some menu items are wrapping across multiple lines you can increase the width of the menu.<br/>Default is 140px. <strong>Leave empty to reset.</strong>"
+msgstr "Bazı menü başlıkları birden fazla satır olacak kadar uzun olursa menü genişliğini artırabilirsiniz.<br/>Varsayılan 140px. <strong>Sıfırlamak için boş bırakın.</strong>"
+
+#: wp-fluency-2.php:587
+msgid "Fixed position menu"
+msgstr "Sabit pozisyonlu menü"
+
+#: wp-fluency-2.php:588
+msgid "Disable if you have lots of plugins that add menu items, or a small screen."
+msgstr "Çok eklentiniz varsa veya küçük bir ekran kullanıyorsanız seçimi kaldırın."
+
+#: wp-fluency-2.php:591
+msgid "Menu item icons"
+msgstr "Menü ikonları"
+
+#: wp-fluency-2.php:592
+msgid "Disable to hide icons from expanded menu."
+msgstr "Menülerde simgeleri gizlemek istiyorsanız seçimi kaldırın."
+
+#: wp-fluency-2.php:595
+msgid "Hover menus"
+msgstr "Hover menüler"
+
+#: wp-fluency-2.php:596
+msgid "Disable to switch back to the click-to-open style menus while retaining the Fluency look."
+msgstr "Üzerine gelince açılan menüler yerine tıklanınca açılan menüler kullanmak istiyorsanız seçimi kaldırın."
+
+#: wp-fluency-2.php:599
+msgid "Menu Hot Keys"
+msgstr "Menü Kısayolları"
+
+#: wp-fluency-2.php:600
+msgid "Disable if you encounter a conflict with another plugin, or if you just need them."
+msgstr "Başka bir eklenti ile bir çakışma varsa veya sadece ona ihtiyacınız varsa seçimi kaldırın."
+
+#: wp-fluency-2.php:603
+msgid "iPad 'friendly' menus"
+msgstr "iPad 'dostu' menüler"
+
+#: wp-fluency-2.php:604
+msgid "Tada! No setting needed for this, just visit your wp-admin on your iPad and you'll get the 'finger-friendly' menus instantly.<br/>Note: Hover menus are auto-disabled on the iPad... because you can't, um, hover."
+msgstr "Tada! Bunun için hiçbir ayar yapmanıza gerek yok, sadece iPad üzerinde wp-admin sayfasını ziyaret edin ve anında 'parmak dostu' menülere ulaşın.<br/>Not: Hover menüler iPad üzerinde otomatik olarak devre dışıdır... çünkü hover yapamazsınız."
+
+#: wp-fluency-2.php:608
+msgid "Admin Menu Configurations"
+msgstr "Admin Menü Ayarları"
+
+#: wp-fluency-2.php:615
+msgid "WP Admin Bar"
+msgstr "WP Admin Bar"
+
+#: wp-fluency-2.php:617
+msgid "The WP Admin Bar can be enabled/disabled (for when viewing your blog and/or accessing the admin area) via your "
+msgstr "WP Admin Bar'ı açıp kapatmak için (yönetici erişimi ile blogunuzu ve/veya yönetim sayfalarınızı görüntülediğinizde) "
+
+#: wp-fluency-2.php:617
+#: wp-fluency-2.php:644
+msgid "profile page"
+msgstr "profil sayfası"
+
+#: wp-fluency-2.php:621
+msgid "Admin bar drop-down menus"
+msgstr "Admin bar açılır-kapanır menüler"
+
+#: wp-fluency-2.php:623
+msgid "Disable the Admin drop-down menus in the WP Admin Bar (Default)."
+msgstr "WP Admin Bar'da Fluency açılır-kapanır menüler kapalı. (Varsayılan)"
+
+#: wp-fluency-2.php:624
+msgid "Enable single drop-down menu with access to all wp-admin areas."
+msgstr "Tüm wp-admin alanlarında tek açılır-kapanır menüyü etkinleştirin."
+
+#: wp-fluency-2.php:625
+msgid "Enable multiple drop-down menus, one for each main wp-admin area."
+msgstr "Tüm wp-admin alanlarında çoklu açılır-kapanır menüyü etkinleştirin."
+
+#: wp-fluency-2.php:626
+msgid "Drop-down menus won't be visible if you've disabled the WP Admin Bar completely."
+msgstr "WP Admin Bar'ı tamamen devre dışı bırakırsanız Fluency açılır menüler görünmeyecektir."
+
+#: wp-fluency-2.php:632
+msgid "Hide Admin Menu"
+msgstr "Admin Menüsünü gizle"
+
+#: wp-fluency-2.php:634
+msgid "Show the admin menu. (Default)"
+msgstr "Admin menüsünü göster. (Varsayılan)"
+
+#: wp-fluency-2.php:635
+msgid "Hide the admin menu."
+msgstr "Admin menüsünü gizle"
+
+#: wp-fluency-2.php:636
+msgid "This will hide the 'standard' admin menu (the one on the left), can only be used if you've enabled one of the Admin Bar drop down options and have not disabled the Admin Bar completely."
+msgstr "'Standard' admin menüsünü (sol menü) gizler. Bu seçenek yalnızca Admin Bar açılır-kapanır menüleri aktif ettiğinizde seçilebilir."
+
+#: wp-fluency-2.php:644
+msgid "When you have the WP Admin Bar plus one of the above drop-down menu options enabled you can choose to hide the 'standard' admin menu on the left."
+msgstr "WP Admin Bar için açılır-kapanır menü seçeneklerinden birini seçerseniz soldaki 'standart' admin menüsünü gizlemeyi seçebilirsiniz."
+
+#: wp-fluency-2.php:644
+msgid "You can turn the Admin Bar on/off on your "
+msgstr "Admin Bar'ı açıp kapatabilirsiniz "
+
+#: wp-fluency-2.php:650
+msgid "Color Customizations"
+msgstr "Renk Düzeni"
+
+#: wp-fluency-2.php:654
+msgid "Menu Background Color"
+msgstr "Menü Arkaplan Rengi"
+
+#: wp-fluency-2.php:656
+msgid "Select a Color"
+msgstr "Renk Seç"
+
+#: wp-fluency-2.php:656
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: wp-fluency-2.php:657
+msgid "Pick a color to use as the background color for the admin menu. <strong>Darkish colours work best.</strong><br/>The rest of the admin area will use the 'grey' color scheme when a custom menu color is selected, regardless of a user's profile setting."
+msgstr "Admin menüsü arka plan rengi olarak kullanılacak bir renk seçin. <strong>Koyu renkler tavsiye edilir.</strong><br/>Özel bir menü rengi seçildiğinde admin alanının geri kalanı kullanıcının profil ayarlarından bağımsız olarak 'gri' renk düzeninde görüntülenir."
+
+#: wp-fluency-2.php:664
+msgid "Save Changes"
+msgstr "Ayarları Kaydet"
+
+#: wp-fluency-2.php:676
+msgid "Fluency Options"
+msgstr "Fluency Ayarları"
+

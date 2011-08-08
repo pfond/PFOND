@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Private WordPress 中文包\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/private-wordpress\n"
+"POT-Creation-Date: 2009-06-26 03:34+0000\n"
+"PO-Revision-Date: 2009-06-26 11:36+0800\n"
+"Last-Translator: Doggie <zheng1212@gmail.com>\n"
+"Language-Team: Jiehan Zheng <jiehanzheng@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+#: private.php:33
+msgid "Sorry, you must login to view this blog."
+msgstr "抱歉，您需要登录来查看本博客。"
+
+#: private.php:42
+msgid " is actived, but the protection function is currently disabled, your blog may be visible to everyone on the web."
+msgstr " 已激活，但保护功能当前禁用，您的博客可能被互联网上的所有人看到。"
+
+#: private.php:51
+#, php-format
+msgid "The blog is currently under the protection of <a href=\"%s\">Private WordPress</a>."
+msgstr "本博客正受 <a href=\"%s\">Private WordPress</a> 的保护。"
+
+#: private.php:57
+msgid "Modify more privacy options by going to Private WordPress plugin settings page."
+msgstr "访问 Private WordPress 插件设置页来修改更多隐私设置。"
+
+#: private.php:61
+msgid "Additional Options"
+msgstr "附加选项"
+
+#: private.php:80
+msgid "Note that the plugin may not capatable with cache plugins like WP Super Cache, be careful if cache plugins are currently enabled. I will look into this. :)"
+msgstr "请注意，本插件可能与 WP Super Cache 等缓存插件不兼容，在启用缓存插件时请格外注意。我将尽量使其兼容。:)"
+
+#: private.php:84
+msgid "Global Status"
+msgstr "全局状态"
+
+#: private.php:88
+msgid "Protection"
+msgstr "保护"
+
+#: private.php:94
+msgid "Enable"
+msgstr "启用"
+
+#: private.php:101
+msgid "Disable"
+msgstr "禁用"
+
+#: private.php:104
+msgid "Enable this options means start redirecting all guests to login page <strong>from now on</strong>."
+msgstr "启用此项意味着<strong>从现在起</strong>所有未登录用户都将被跳转到登录页面。"
+
+#: private.php:109
+msgid "When a guest comes ..."
+msgstr "当游客访问时 ..."
+
+#: private.php:113
+msgid "Method"
+msgstr "方法"
+
+#: private.php:119
+msgid "Redirect to login page use function <code>auth_redirect</code>"
+msgstr "用 <code>auth_redirect</code> 函数重定向到登录页面"
+
+#: private.php:121
+msgid "Recommend."
+msgstr "推荐。"
+
+#: private.php:127
+msgid "Show a image/page"
+msgstr "显示一张图片或页面"
+
+#: private.php:129
+msgid "Replace the default image <code>sorry.png</code> / default page <code>sorry.html</code> in the plugin directory. The default image & page is prepared for the <a href=\"http://www.reuters.com/article/rbssITServicesConsulting/idUSPEK37237320090622\">Internet boycott in China on Jul/1/2009</a>."
+msgstr "覆盖插件目录中的 <code>sorry.png</code> 图片或 <code>sorry.html</code> 页面。默认文件和图片是为<a href=\"http://www.reuters.com/article/rbssITServicesConsulting/idUSPEK37237320090622\">2009 年 7 月 1 日的中国网民罢网活动</a>准备的。"
+
+#: private.php:135
+msgid "Redirect to login page use function <code>wp_redirect</code>"
+msgstr "用 <code>wp_redirect</code> 函数重定向到登录页面"
+
+#: private.php:137
+msgid "Choose this if you encoraged problems using the normal method."
+msgstr "如您在使用标准模式时遇到问题，请选择此项。"
+
+#: private.php:143
+msgid "RSS & Atom feed"
+msgstr "RSS 和 Atom 供稿"
+
+#: private.php:149
+msgid "Allow all feed access"
+msgstr "开放供稿访问"
+
+#: private.php:151
+msgid "Guests may continue read your blog via feed readers."
+msgstr "访客可以通过供稿(RSS)阅读器继续阅读您的博客。"
+
+#: private.php:157
+msgid "Deny all guests' feed access"
+msgstr "禁止所有访客访问订阅源"
+
+#: private.php:159
+msgid "No one besides you are able to access the feed."
+msgstr "除您之外，没有人可以访问供稿。"
+
+#: private.php:164
+msgid "Tell something to your guests ..."
+msgstr "告诉您的访客 ..."
+
+#: private.php:168
+msgid "Login message"
+msgstr "登录提示信息"
+
+#: private.php:171
+msgid "This message will be shown to visitors who haven't logged in already. HTML tags are allowed."
+msgstr "未登录用户将看到本消息。HTML 代码可用。"
+
+#: private.php:182
+msgid "Save Changes"
+msgstr "保存设置"
+
+#~ msgid "Private WordPress"
+#~ msgstr "Private WordPress"
+#~ msgid ""
+#~ "Function <strong>auth_redirect</strong> doesn't available, "
+#~ "<strong>Alternate method</strong> was selected automatically."
+#~ msgstr ""
+#~ "函数 <strong>auth_redirect</strong> 不可用，<strong>备选方法</strong> 已被"
+#~ "自动选用。"
+#~ msgid "Protecting Method"
+#~ msgstr "保护方法"
+#~ msgid "Normal"
+#~ msgstr "标准"
+#~ msgid "Alternate"
+#~ msgstr "备选"
+

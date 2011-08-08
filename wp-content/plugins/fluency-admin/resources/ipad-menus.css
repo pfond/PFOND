@@ -1,0 +1,11 @@
+#adminmenu .menu-top-last a.menu-top {line-height:36px;}
+#adminmenu li.wp-has-submenu {min-height:36px;}
+#adminmenu li.wp-has-submenu .wp-menu-toggle {line-height:36px;}
+#adminmenu li.wp-has-submenu .wp-menu-toggle, #adminmenu li.wp-menu-open .wp-menu-toggle {height:35px;}
+#adminmenu li div.wp-menu-image {height:32px;margin-top:4px;}
+#adminmenu li a.wp-has-submenu, #adminmenu li a.menu-top {line-height:36px;font-size:14px;}
+#adminmenu li div.wp-submenu ul li a {font-size:14px !important;line-height:36px;padding:0 6px 0 10px;overflow:hidden;text-overflow:ellipsis;}
+.hiddenMenu #adminmenu li div.wp-submenu ul li a {padding:0 35px 0 10px;}
+#adminmenu li div.wp-submenu ul li.current a, #adminmenu li div.wp-submenu ul li.current a:hover {text-shadow:1px 1px 0 #000;font-weight:normal;}
+#adminmenu li a #awaiting-mod, #adminmenu li .wp-submenu a #awaiting-mod, #adminmenu li.current a #awaiting-mod, #adminmenu li a .update-plugins, #adminmenu li.wp-has-submenu a .update-plugins, #adminmenu li.wp-has-submenu a .update-plugins,
+#adminmenu li.current a .update-plugins, #adminmenu li.wp-has-current-submenu a .update-plugins, #adminmenu li.wp-has-current-submenu a .update-plugins, #adminmenu li#menu-dashboard a .update-plugins {top:10px;right:auto;}

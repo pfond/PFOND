@@ -1,0 +1,24 @@
+html{background-color:#222;}
+body.login {background:#222;font-family:"Helvetica","Arial",sans-serif;padding-top:7em;}
+#login {background:#DDD url('images/postbox-bg.gif') repeat-x top left;border:1px solid #FFF;-moz-border-radius:20px;border-radius:20px;margin:0 auto 1em;-moz-box-shadow:0 0 30px #000;-webkit-box-shadow:0 0 30px #000;box-shadow:0 0 30px #000;}
+#login form#loginform, #login form#registerform, #login form#lostpasswordform {background:#F6F6F6;border:1px solid #FFF;margin:10px 10px 0;-moz-border-radius:15px;border-radius:15px;}
+#login form#loginform label, #login form#registerform label, #login form#lostpasswordform label {font-weight:bold;text-shadow:0 1px 0 #FFF;color:#333;}
+#login form#loginform #user_login, #login form#loginform #user_email, #login form#registerform #user_login, #login form#registerform #user_email, #login form#lostpasswordform #user_login,
+#login form#loginform #user_pass, #login form#loginform #openid_identifier {border:1px solid #CCC;-moz-border-radius:8px;border-radius:8px;line-height:30px;font-size:24px;padding:5px;width:255px;margin-top:5px;margin-right:0;font-family:"Helvetica","Arial",sans-serif;}
+#login form#loginform #user_login:focus, #login form#loginform #user_email:focus, #login form#registerform #user_login:focus, #login form#registerform #user_email:focus, #login form#lostpasswordform #user_login:focus,
+#login form#loginform #user_pass:focus, #login form#loginform #openid_identifier:focus {outline:none;border-color:#06c;-webkit-box-shadow:0 0 5px rgba(0,102,204,0.5);-moz-box-shadow:0 0 5px rgba(0,102,204,0.5);box-shadow:0 0 5px rgba(0,102,204,0.5);}
+#login form#loginform #openid_identifier {width:240px;}
+#login #login_error {margin:10px;padding:0;text-align:center;font-weight:bold;background:none;border:0 none;color:#900;text-shadow:1px 1px 0 #FFF;}
+#login #login_error a {color:#06C;}
+#login .message {margin:10px;padding:0;text-align:center;font-weight:bold;background:none;border:0 none;color:#333;text-shadow:1px 1px 0 #FFF;}
+#login h1 a {background:url('images/wp_login.gif') no-repeat center 15px;width:250px;height:50px;margin:0 auto 10px;}
+#reg_passmail {text-align:center;font-style:italic;color:#666;text-shadow:1px 1px 0 #FFF;}
+#nav {margin:0;text-align:center;font-weight:bold;padding:15px 10px 10px;font-weight:normal;color:transparent;text-shadow:none;background:#DDD url('images/fav-gradient.gif') repeat-x scroll left bottom;-moz-border-radius-bottomleft:19px;-moz-border-radius-bottomright:19px;border-bottom-left-radius:19px;border-bottom-right-radius:19px;}
+body.login p#nav a {color:#464646 !important;text-shadow:0 1px 0 #FFF;text-decoration:none;font-weight:bold;margin:0 5px;}
+body.login p#nav a:hover {color:#333 !important;}
+p#backtoblog {position:relative;margin:0 auto;text-align:center;background:none;border:0 none;}
+p#backtoblog a {color:#000 !important;text-shadow:1px 1px 0 #333;font-weight:bold;font-size:12px;padding:0;display:inline;}
+body.login p#backtoblog a:hover {color:#FFF !important;text-shadow:1px 1px 0 #000;}
+#login form .submit input {border-color:#464646 !important;background:#999 url('images/button-gradient.png') repeat-x scroll left top;-moz-border-radius:4px;border-radius:4px;padding:3px 15px;margin-top:0;font-family:"Helvetica","Arial",sans-serif;font-weight:bold;color:#EEE !important;text-shadow:-1px -1px 0 rgba(0,0,0,0.5);}
+#login form .submit input:hover {border-color:#464646 !important;background:#666 url('images/button-gradient.png') repeat-x scroll left center !important;color:#FFF !important;text-shadow:-1px -1px 0 rgba(0,0,0,0.5);}
+#login form .submit input:active {border-color:#464646 !important;background:#666 url('images/button-gradient.png') repeat-x scroll left bottom !important;color:#FFF !important;-moz-outline:none !important;padding:4px 15px 2px;text-shadow:-1px -1px 0 rgba(0,0,0,0.5);}

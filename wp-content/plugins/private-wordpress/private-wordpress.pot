@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/private-wordpress\n"
+"POT-Creation-Date: 2009-09-25 11:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: private.php:33
+msgid "<p class=\"message\">Sorry, please login to view this blog.</p>"
+msgstr ""
+
+#: private.php:42
+msgid ""
+" is actived, but the protection function is currently disabled, your blog "
+"may be visible to everyone on the web."
+msgstr ""
+
+#: private.php:51
+#, php-format
+msgid ""
+"The blog is currently under the protection of <a href=\"%s\">Private "
+"WordPress</a>."
+msgstr ""
+
+#: private.php:57
+msgid ""
+"Modify more privacy options by going to Private WordPress plugin settings "
+"page."
+msgstr ""
+
+#: private.php:61
+msgid "Additional Options"
+msgstr ""
+
+#: private.php:80
+msgid ""
+"Note that the plugin may not capatable with cache plugins like WP Super "
+"Cache, be careful if cache plugins are currently enabled. I will look into "
+"this. :)"
+msgstr ""
+
+#: private.php:84
+msgid "Global Status"
+msgstr ""
+
+#: private.php:88
+msgid "Protection"
+msgstr ""
+
+#: private.php:94
+msgid "Enable"
+msgstr ""
+
+#: private.php:101
+msgid "Disable"
+msgstr ""
+
+#: private.php:104
+msgid ""
+"Enable this options means start redirecting all guests to login page "
+"<strong>from now on</strong>."
+msgstr ""
+
+#: private.php:109
+msgid "When a guest comes ..."
+msgstr ""
+
+#: private.php:113
+msgid "Method"
+msgstr ""
+
+#: private.php:119
+msgid "Redirect to login page use function <code>auth_redirect</code>"
+msgstr ""
+
+#: private.php:121
+msgid "Recommend."
+msgstr ""
+
+#: private.php:127
+msgid "Show a image/page"
+msgstr ""
+
+#: private.php:129
+msgid ""
+"Replace the default image <code>sorry.png</code> / default page <code>sorry."
+"html</code> in the plugin directory. The default image & page is prepared "
+"for the <a href=\"http://www.reuters.com/article/rbssITServicesConsulting/"
+"idUSPEK37237320090622\">Internet boycott in China on Jul/1/2009</a>."
+msgstr ""
+
+#: private.php:135
+msgid "Redirect to login page use function <code>wp_redirect</code>"
+msgstr ""
+
+#: private.php:137
+msgid "Choose this if you encoraged problems using the normal method."
+msgstr ""
+
+#: private.php:143
+msgid "RSS & Atom feed"
+msgstr ""
+
+#: private.php:149
+msgid "Allow all feed access"
+msgstr ""
+
+#: private.php:151
+msgid "Guests may continue read your blog via feed readers."
+msgstr ""
+
+#: private.php:157
+msgid "Deny all guests' feed access"
+msgstr ""
+
+#: private.php:159
+msgid "No one besides you are able to access the feed."
+msgstr ""
+
+#: private.php:164
+msgid "Tell something to your guests ..."
+msgstr ""
+
+#: private.php:168
+msgid "Login message"
+msgstr ""
+
+#: private.php:171
+msgid ""
+"This message will be shown to visitors who haven't logged in already. HTML "
+"tags are allowed."
+msgstr ""
+
+#: private.php:171
+msgid ""
+" To apply WordPress's default style, use <code>&lt;p class=\"message\"&gt;</"
+"code> and <code>&lt;/p&gt;</code> to wrap your own message."
+msgstr ""
+
+#: private.php:182
+msgid "Save Changes"
+msgstr ""

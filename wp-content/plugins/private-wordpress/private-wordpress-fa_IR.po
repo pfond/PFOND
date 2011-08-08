@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: private-wordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-05-20 17:18+0330\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mostafa1990 <mostafa.s1990@gmail.com>\n"
+"Language-Team:  <mostafa.s1990@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:19
+msgid "Sorry, you must login to view this blog."
+msgstr "متأسفم, برای مشاهده وبلاگ باید وارد سایت شوید."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:27
+msgid " is actived, but the protection function is currently disabled, your blog may be visible to everyone on the web."
+msgstr "فعال است, اما تابع های حراست غیرفعال است, وبلاگ شما برای همگان در دسترس است."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:36
+#, php-format
+msgid "The blog is currently under the protection of <a href=\"%s\">Private WordPress</a>."
+msgstr "معمولا وبلاگ بوسیله یک تابع حراست میشود <a href=\"%s\">وردرپرس شخصی</a>."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:42
+msgid "Modify more privacy options by going to Private WordPress plugin settings page."
+msgstr "اصلاح بیشتر تنظیمات امنیتی توسط این افزونه به برگه تنظیمات افزونه بروید."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:46
+msgid "Additional Options"
+msgstr "تنظیمات اضافی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:64
+msgid "Function <strong>auth_redirect</strong> doesn't available, <strong>Alternate method</strong> was selected automatically."
+msgstr "تابع <strong>auth_redirect</strong> غیر قابل دسترس است, <strong>گزینش مسیر</strong> خودکار انتخاب شده است."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:75
+msgid "Protection"
+msgstr "وضعیت"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:81
+msgid "Enable"
+msgstr "فعال"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:88
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:91
+msgid "Enable this options means start redirecting all guests to login page <strong>from now on</strong>."
+msgstr "فعال بودن این گزینه میتواند کاربران مهمان را به صفحه ورود هدایت میکند."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:96
+msgid "Protecting Method"
+msgstr "شیوه حراست"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:102
+msgid "Normal"
+msgstr "معمولی"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:104
+msgid "Recommend"
+msgstr "توصیه میشود"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:110
+msgid "Alternate"
+msgstr "گزینش مسیر"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:112
+msgid "Choose this if you encoraged problems using the normal method"
+msgstr "اگر شما این را انتخاب کنید"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:117
+msgid "Login message"
+msgstr "پیغام ورود"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:120
+msgid "This message will be shown to visitors who haven't logged in already. HTML tags are allowed."
+msgstr "این پیغام میتواند برای بازدیدکننده در هنگام ورود به سایت نمایش داده شود. تگ های HTML میپزیرد."
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:131
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: F:\Program
+#: Files\AppServ\www\wordpress\wp-content\plugins\private-wordpress/private.php:134
+msgid "Note that the plugin may not capatable with cache plugins like WP Super Cache, be careful if cache plugins are currently enabled. I will look into this. :)"
+msgstr "یادداشت,افزونه توانائی هماهنگی با افزونه هایی مانند WPSuper Cashe را دارد. پس با دقت در فعال کردن افزونه های ذخیره گاه عمل کنید. خواهش میکنم سبت به این مساله بیشتر نگاه کنید :)"
+
+#~ msgid "Private WordPress"
+#~ msgstr "وردپرس شخصی"
+#~ msgid "is actived"
+#~ msgstr "فعال است"
+#~ msgid "your blog may be visible to everyone on the web."
+#~ msgstr "وبلاگ شما برای همه قابل دسترس است."
+#~ msgid "Private WP"
+#~ msgstr "وردپرس شخصی"
+#~ msgid "Function"
+#~ msgstr "تابع"
+#~ msgid "auth_redirect"
+#~ msgstr "بازپرسی"
+#~ msgid "t available,"
+#~ msgstr "دسترس پذیر"
+#~ msgid "Alternate method"
+#~ msgstr "روش گزینش مسیر"
+#~ msgid "was selected automatically."
+#~ msgstr "انتخاب میتواند خودکار انجام شود."
+#~ msgid "from now on"
+#~ msgstr "هم اکنون فعال است"
+#~ msgid "t logged in already."
+#~ msgstr "برای خواندن "
+#~ msgid " HTML tags are allowed."
+#~ msgstr "تگ های اچ تی ام ال قبول است."
+
