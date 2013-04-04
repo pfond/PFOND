@@ -60,7 +60,10 @@ Template Name: Home Page
 				<?php if ( !is_user_logged_in() ) : ?>
 					<div id="join-us">
 						<h3>Join us today!</h3>
-						<p>We're a fast growing community for individuals and families with rare genetic genetic diseases. Come and be encouraged by others with stories like your own.</p>
+						<p>We're a fast growing community for individuals and families with rare genetic diseases. Come and be encouraged by others with stories like your own. 
+							If you would like to join us as a volunteer editor and help keep our pages up to date please navigate to our <a href="<?php echo get_site_url(1) . '/volunteer-application/' ?>">volunteer page</a>.
+						</p>
+						
 						<a class="button" href="<?php echo get_site_url(1) . '/register' ?>">Register</a>
 					</div>
 				<?php endif; ?>

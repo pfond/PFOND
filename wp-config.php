@@ -14,18 +14,26 @@
  * @package WordPress
  */
 
+
+// Memory Allocation
+define('WP_MEMORY_LIMIT', '300M');
+
+
+//define('WP_HOME','http://pfond.cmmt.ubc.ca');
+//define('WP_SITEURL','http://pfond.cmmt.ubc.ca');
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'pfond_wp');
+define('DB_NAME', '');
 
 /** MySQL database username */
-define('DB_USER', 'isaiah');
+define('DB_USER', '');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'isa567iah');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -90,12 +98,12 @@ define ('BP_GROUPS_SLUG', 'groups');
 /*
  * Multisite Setup
  */
-define ( 'WP_ALLOW_MULTISITE', true );
+define ( 'WP_ALLOW_MULTISITE', true);
 define ( 'MULTISITE', true );
-define ( 'SUBDOMAIN_INSTALL', false );
-$base = '/dev/';
-define ( 'DOMAIN_CURRENT_SITE', 'web3.cmmt.ubc.ca' );
-define ( 'PATH_CURRENT_SITE', '/dev/' );
+define ( 'SUBDOMAIN_INSTALL', false);
+$base = '/';
+define ( 'DOMAIN_CURRENT_SITE', 'pfond.cmmt.ubc.ca' );
+define ( 'PATH_CURRENT_SITE', '/' );
 define ( 'SITE_ID_CURRENT_SITE', 1 );
 define ( 'BLOG_ID_CURRENT_SITE', 1 );
 

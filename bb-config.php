@@ -13,7 +13,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for bbPress */
-define( 'BBDB_NAME', 'pfond_wp' );
+define( 'BBDB_NAME', 'pfond?wp' );
 
 /** MySQL database username */
 define( 'BBDB_USER', 'isaiah' );
@@ -65,8 +65,8 @@ define( 'BB_LANG', '' );
 $bb->custom_user_table = 'wp_users';
 $bb->custom_user_meta_table = 'wp_usermeta';
 
-$bb->uri = 'http://web3.cmmt.ubc.ca/dev/wp-content/plugins/buddypress/bp-forums/bbpress/';
-$bb->name = ' Forums';
+$bb->uri = 'http://pfond.cmmt.ubc.ca/wp-content/plugins/buddypress/bp-forums/bbpress/';
+$bb->name = 'Forums';
 
 define('BB_AUTH_SALT', 'put your unique phrase here');
 define('BB_LOGGED_IN_SALT', 'put your unique phrase here');

@@ -39,9 +39,20 @@
 	
 	<script type="text/javascript" src="<?php bloginfo("stylesheet_directory") ?>/_includes/scripts/login.js"></script>
 
+
 </head>
 
 <body <?php body_class() ?> id="bp-default">
+
+<script type="text/javascript">
+var sc_project=7229248; 
+var sc_invisible=1; 
+var sc_security="074f3d3f"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"></div></noscript> 
+<!--<p><u>Attention</u>: Website currently under maintenance; some features may not work. </p>-->
 
 <div id="main">
 	
@@ -100,7 +111,7 @@
 					}
 					$alt = !$alt;
 				}
-			?><a></div>
+			?></a></div>
 			
 			<div id="home-link"><a href="<?php echo get_site_url(1) ?>"/><img src="<?php bloginfo('stylesheet_directory') ?>/_includes/images/home.png" width="18px" height="18px" style="vertical-align: text-bottom"/> <?php echo get_blog_details(1)->blogname ?> Home</a><?php
 			$current_user = wp_get_current_user();

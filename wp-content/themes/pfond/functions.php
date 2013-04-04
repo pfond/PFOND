@@ -1333,4 +1333,95 @@ function bpmag_is_advance_search() {
 	return false;
 }
 
+//====================================
+//	Achievements - actions 
+//====================================
+
+
+//add_action('draft_to_publish', 'puya_tooltips_catch', 10, 1); //added
+
+//add_action('bp_header', 'disease_info_achievements');
+add_action('draft_to_publish', 'disease_info_achievements', 10, 1); 
+add_action('draft_to_publish', 'expert_achievements', 10, 1); 
+
+/*
+list of post types
+-post
+-page
+-attachment
+-revision
+-nav_menu_item
+-incsub_wiki
+-disease_info
+-expert
+
+*/
+
+/*
+function my-function-on-delete($post_id) {
+    $post = get_post($post_id);
+    if ($post->post_type == 'my-custom-post-type') {
+        //My function
+       }
+} */
+
+
+// disease_info post
+
+function disease_info_achievements($post_id) {
+	$post = get_post($post_id); 
+	if ($post->post_type == 'disease_info') {
+		do_action('puya_disease_info_ach'); 	
+	}
+}
+
+function dpa_handle_action_puya_disease_info_ach() {
+    $func_get_args = func_get_args();
+    dpa_handle_action( 'puya_disease_info_ach', $func_get_args );
+}
+ 
+function diseaseinfoAch_set_action_blog( $category_name, $category ) {
+    if ( __( 'Other', 'dpa' ) == $category_name && 'blog' == $category )
+        return __( "BuddyPress skeleton component", 'blog' );
+    else
+        return $category_name;
+}
+add_filter( 'dpa_get_addedit_action_descriptions_category_name', 'diseaseinfoAch_set_action_blog', 10, 2 );
+
+
+
+// expert post
+
+
+function expert_achievements($post_id) {
+	$post = get_post($post_id); 
+	if ($post->post_type == 'expert') {
+		do_action('puya_expert_ach'); 	
+	}
+}
+
+
+function dpa_handle_action_puya_expert_ach() {
+    $func_get_args = func_get_args();
+    dpa_handle_action( 'puya_expert_ach', $func_get_args );
+}
+ 
+function puya_expert_ach_set_action_blog( $category_name, $category ) {
+    if ( __( 'Other', 'dpa' ) == $category_name && 'blog' == $category )
+        return __( "BuddyPress skeleton component", 'blog' );
+    else
+        return $category_name;
+}
+add_filter( 'dpa_get_addedit_action_descriptions_category_name', 'puya_expert_ach_set_action_blog', 10, 2 );
+
+
+
+/*
+function disease_info_achievements() {
+	$post_types=get_post_types('','names'); 
+	foreach ($post_types as $post_type ) {
+  		echo '<p>'. $post_type. '</p><br />';
+	}
+}*/
+
 ?>

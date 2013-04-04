@@ -1,4 +1,4 @@
-﻿=== Private WordPress ===
+=== Private WordPress ===
 Contributors: zheng1212
 Tags: private, family blog, registered only
 Requires at least: 2.7

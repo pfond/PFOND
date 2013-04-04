@@ -23,6 +23,15 @@ Template Name: Site List
 
 <body <?php body_class() ?>>
 
+<script type="text/javascript">
+var sc_project=7229248; 
+var sc_invisible=1; 
+var sc_security="074f3d3f"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"></div></noscript>
+
 <div id="main">
 
 	<div id="landing-page">
