@@ -25,7 +25,9 @@ The full source code for the PFOND project is contained here. Most of the files 
 		page-experts.php - Page template for 'Experts' page
 		
 		page-links.php - Page template for 'Links' page
+
+A database export is also included in the repo labelled 'pfond_wp.sql'.
 		
 CONTACT
 
-Please contact pfond.site@gmail.com for any questions or comments. Alternatively, visit the Wasserman Lab website (http://www.cmmt.ubc.ca/research/investigators/wasserman/lab) to contact researchers directly.
+Please use http://pfond.cmmt.ubc.ca/contact-pfond/ for any questions or comments. Alternatively, visit the Wasserman Lab website (http://www.cmmt.ubc.ca/research/investigators/wasserman/lab) to contact researchers directly.
