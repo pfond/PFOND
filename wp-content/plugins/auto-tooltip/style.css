@@ -1,0 +1,30 @@
+/*
+Default style for autotooltip plugin
+
+
+*/
+div#qTip {
+	border:1px solid #A5C5D0;
+		z-index: 3000;
+	background:#F4FCFF;
+	min-width:40px;
+	min-height:14px;
+	text-direction:rtl;
+	text-align:center;
+	padding:2px 5px;
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color:#000000;
+	shadow:5px 5px 0 #FFF;
+	font-size:8pt;
+	font-family: tahoma;
+	text-shadow:1px 0px 1px #565656;
+	display:none;
+	-moz-box-shadow: 0px 0px 4px #fff;
+	position:absolute;
+	margin-top:12px;
+	margin-left:8px;
+		max-width: 200px;
+}

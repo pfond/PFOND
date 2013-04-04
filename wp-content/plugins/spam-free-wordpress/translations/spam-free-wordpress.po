@@ -1,0 +1,374 @@
+# LANGUAGE (LOCALE) translation for WordPress.
+# Copyright (C) 2012
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Spam Free Wordpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-16 16:24-0800\n"
+"PO-Revision-Date: 2012-08-16 16:24-0800\n"
+"Last-Translator: Todd Lahman <domainerjunk@gmail.com>\n"
+"Language-Team: Todd Lahman <domainerjunk@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tl-spam-free-wordpress.php:24
+msgid " requires at least WordPress 3.1. Sorry! Click back button to continue."
+msgstr ""
+
+#: tl-spam-free-wordpress.php:110
+msgid "TURN ON"
+msgstr ""
+
+#: tl-spam-free-wordpress.php:112
+msgid " your "
+msgstr ""
+
+#: tl-spam-free-wordpress.php:114 includes/admin.php:66
+msgid "Comment Form Spam Stats"
+msgstr ""
+
+#: tl-spam-free-wordpress.php:116
+msgid " to be sure Spam Free Wordpress is working properly."
+msgstr ""
+
+#: tl-spam-free-wordpress.php:130 includes/admin.php:30
+msgid "Settings"
+msgstr ""
+
+#: tl-spam-free-wordpress.php:131
+msgid "Donate"
+msgstr ""
+
+#: tl-spam-free-wordpress.php:149
+msgid ""
+"Pingbacks were closed this one time to stop pingback and trackback spam. To "
+"reopen go to Settings >> Spam Free Wordpress"
+msgstr ""
+
+#: includes/admin.php:22
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/admin.php:44
+msgid "Settings updated"
+msgstr ""
+
+#: includes/admin.php:49
+msgid "W3 Total Cache Page Cache flushed"
+msgstr ""
+
+#: includes/admin.php:53
+msgid "WP Super Cache flushed"
+msgstr ""
+
+#: includes/admin.php:60
+msgid "Save Changes"
+msgstr ""
+
+#: includes/admin.php:67
+msgid "Turn on your stats to say thank you."
+msgstr ""
+
+#: includes/admin.php:67
+msgid "This will also display a link to the plugin page on your comment form."
+msgstr ""
+
+#: includes/admin.php:72
+msgid "Password Style"
+msgstr ""
+
+#: includes/admin.php:73
+msgid ""
+"Turn on Comment Form Spam Stats above to make sure the invisible password is "
+"working."
+msgstr ""
+
+#: includes/admin.php:74
+msgid ""
+"If you cannot see the Spam Stats, and you cannot leave a comment, it is not "
+"working, which means you need help customizing your comment form."
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Automatically Generate Comment Form"
+msgstr ""
+
+#: includes/admin.php:84
+msgid "Will automatically generate the comment form."
+msgstr ""
+
+#: includes/admin.php:89
+msgid "Use Old jQuery Scripts"
+msgstr ""
+
+#: includes/admin.php:90
+msgid ""
+"If you use WordPress 3.3 or greater you can turn this to off. If comments "
+"get blocked after turning off it means your theme is loading an old version "
+"of jQuery."
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Remove HTML from Comments"
+msgstr ""
+
+#: includes/admin.php:96
+msgid ""
+"Strips the HTML from comments to render spam links as plain text. Also "
+"removes the allowed HTML tags message from below the comment box."
+msgstr ""
+
+#: includes/admin.php:101
+msgid "Remove URL Form Field"
+msgstr ""
+
+#: includes/admin.php:102
+msgid ""
+"Removes the URL (web site address) comment form field, so it cannot be used "
+"as a spam link."
+msgstr ""
+
+#: includes/admin.php:107
+msgid "Remove Comment Author Clickable Link"
+msgstr ""
+
+#: includes/admin.php:108
+msgid ""
+"Disables the comment author clickable link if the comment author fills in "
+"the URL (web site) comment form field."
+msgstr ""
+
+#: includes/admin.php:113
+msgid "Password Form Customization"
+msgstr ""
+
+#: includes/admin.php:116
+msgid " Password Field Size."
+msgstr ""
+
+#: includes/admin.php:117
+msgid " Tab Index"
+msgstr ""
+
+#: includes/admin.php:121
+msgid "Remote Comment Blocklist"
+msgstr ""
+
+#: includes/admin.php:122
+msgid ""
+"The Remote Comment Blocklist accesses a text file list of IP addresses on a "
+"remote server to block comment spam. This allows a global IP address "
+"blocklist to be shared with multiple blogs. The Remote Comment Blocklist and "
+"the Local Comment Blocklist can be used at the same time. The Remote Comment "
+"Blocklist works exactly the same way as the Local Comment Blocklist, except "
+"it is on a remote server. The URL to the remote text file could be for "
+"example: <code>http://www.example.com/mybl/bl.txt</code>"
+msgstr ""
+
+#: includes/admin.php:123 includes/admin.php:164
+msgid " can be used to comment out an IP address."
+msgstr ""
+
+#: includes/admin.php:126
+msgid " Enter URL to remote text file."
+msgstr ""
+
+#: includes/admin.php:129
+msgid "Share Link Custom Message"
+msgstr ""
+
+#: includes/admin.php:130
+msgid "Customize a URL link to the "
+msgstr ""
+
+#: includes/admin.php:130
+msgid ""
+" plugin page below if you want to share it with others somewhere else on "
+"your blog other than the comment form."
+msgstr ""
+
+#: includes/admin.php:132
+msgid "Link Message "
+msgstr ""
+
+#: includes/admin.php:134
+msgid ""
+"Copy and paste the line of code below into a template file to display the "
+"custom share link."
+msgstr ""
+
+#: includes/admin.php:137
+msgid "Pingbacks and Trackbacks"
+msgstr ""
+
+#: includes/admin.php:138
+msgid ""
+"It is highly recommended to keep pingbacks CLOSED to eliminate that form of "
+"spam entirely."
+msgstr ""
+
+#: includes/admin.php:139
+msgid ""
+"Pingbacks can cause a downgrade in SEO ranking, and are almost entirely "
+"spam. Pingbacks are not worth the trouble they bring, but if you still want "
+"them it is your choice."
+msgstr ""
+
+#: includes/admin.php:141
+msgid "Open "
+msgstr ""
+
+#: includes/admin.php:141
+msgid " Closed "
+msgstr ""
+
+#: includes/admin.php:144
+msgid "Message Above Comment Text Area"
+msgstr ""
+
+#: includes/admin.php:150
+msgid "Blocked Spam Comments"
+msgstr ""
+
+#: includes/admin.php:161
+msgid "Local Comment Blocklist"
+msgstr ""
+
+#: includes/admin.php:162
+msgid ""
+"The Local Blocklist is a list of blocked IP addresses stored in the blog "
+"database. When a comment comes from an IP address matching the Blocklist it "
+"will be blocked, which means you will never see it as waiting for approval "
+"or marked as spam. Blocked commenters will be able to view your blog, but "
+"any comments they submit will be blocked, which means not saved to the "
+"database, and they will see the message "
+msgstr ""
+
+#: includes/admin.php:162
+msgid "Spam Blocked."
+msgstr ""
+
+#: includes/admin.php:163
+msgid ""
+"Enter one IP address per line. Wildcards like 192.168.1.* will not work."
+msgstr ""
+
+#: includes/admin.php:170
+msgid "IP Addresses Go Here"
+msgstr ""
+
+#: includes/class-comment-form.php:96
+#, php-format
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: includes/class-comment-form.php:145
+msgid "Name"
+msgstr ""
+
+#: includes/class-comment-form.php:147
+msgid "Email"
+msgstr ""
+
+#: includes/class-comment-form.php:149
+msgid "Website"
+msgstr ""
+
+#: includes/class-comment-form.php:153
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/class-comment-form.php:157
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: includes/class-comment-form.php:158
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: includes/class-comment-form.php:159
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/class-comment-form.php:160
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: includes/class-comment-form.php:163
+msgid "Leave a Reply"
+msgstr ""
+
+#: includes/class-comment-form.php:164
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: includes/class-comment-form.php:165
+msgid "Cancel reply"
+msgstr ""
+
+#: includes/class-comment-form.php:166
+msgid "Post Comment"
+msgstr ""
+
+#: includes/functions.php:92 includes/functions.php:98
+msgid "HTML tags are not allowed."
+msgstr ""
+
+#: includes/functions.php:204
+msgid "Make Your Blog Spam Free"
+msgstr ""
+
+#: includes/functions.php:228 includes/functions.php:263
+msgid " Spam Comments Blocked so far by "
+msgstr ""
+
+#: includes/functions.php:230
+msgid " version "
+msgstr ""
+
+#: includes/functions.php:232
+msgid " located at "
+msgstr ""
+
+#: includes/functions.php:244 includes/functions.php:254
+msgid "Click for Password"
+msgstr ""
+
+#: includes/functions.php:294
+msgid ""
+"Spam Free Wordpress rejected your comment because you failed a critical "
+"security check."
+msgstr ""
+
+#: includes/functions.php:298
+msgid ""
+"Spam Free Wordpress rejected your comment because you did not enter the "
+"correct password or it was empty."
+msgstr ""
+
+#: includes/functions.php:303
+msgid ""
+"Comment blocked by Spam Free Wordpress because your IP address is in the "
+"local blocklist, or you forgot to type a comment."
+msgstr ""
+
+#: includes/functions.php:309
+msgid ""
+"Comment blocked by Spam Free Wordpress because your IP address is in the "
+"remote blocklist, or you forgot to type a comment."
+msgstr ""

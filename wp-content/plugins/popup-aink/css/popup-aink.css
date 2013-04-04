@@ -1,0 +1,60 @@
+div#PopUpAink{
+	display:none;
+	margin:0 auto;
+}
+div#PopUpAink .PopUpContent{
+	background-color:transparent;
+	padding:5.5px;
+	border:1px solid #ffffff;
+	-moz-box-shadow:0 0 10px #ffffff;
+	-webkit-box-shadow:0 0 10px #ffffff;
+	outline:none;
+}
+div#PopUpAink .PopUpContent .Content{
+	border:1px solid #000000;
+	-moz-box-shadow:0 0 10px #000000;
+	-webkit-box-shadow:0 0 10px #000000;
+	padding:10px;
+	background:#ffffff;
+	color:#000;
+}
+div#PopUpAink div.icon{
+	margin-top:-1.5px;
+	margin-right:-20px;
+	float:right;
+}
+div#PopUpAink div a.bClose{
+	background:transparent url('../images/close.png') no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	color:transparent;
+	font-size:0px;
+}
+div#PopUpAink div a.bClose:hover{
+	background:transparent url('../images/close-hover.png') no-repeat;
+}
+div#PopUpAink div a.callbicon{
+	background:transparent url('../images/favicon.png') no-repeat;
+	width:16px;
+	height:16px;
+	display:block;
+	margin-top:5.55px;
+	color:transparent;
+	font-size:0px;
+	opacity:0.5;
+}
+div#PopUpAink div a.callbicon:hover{
+	opacity:1;
+}
+div#PopUpAink .callb{
+	font-family:Angelina, Helvetica, sans-serif, "Trebuchet MS", sans-serif, Arial, Tahoma;
+	font-size:11px;
+	margin-top:5.55px;
+}
+div#PopUpAink .callb a{
+	text-decoration:none;
+}
+div#PopUpAink .callb a:hover{
+	text-decoration:underline;
+}

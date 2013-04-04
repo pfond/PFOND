@@ -1,0 +1,450 @@
+/* JQUERY UI BUTTON STYLES
+		Credit: http://www.filamentgroup.com/lab/styling_buttons_and_toolbars_with_the_jquery_ui_css_framework/
+*/
+/*.el-button { outline: 0; margin:0 4px 0 0; padding: .2em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }*/
+.el-button { outline: 0; margin:0 4px 0 0; padding: .2em 1em; text-decoration:none !important; cursor:pointer; position: relative; text-align: center; zoom: 1; }
+.el-button .ui-icon { position: absolute; top: 50%; margin-top: -8px; left: 50%; margin-left: -8px; }
+
+a.el-button { float:left; }
+
+button {
+	margin: 0;
+	padding: 0;
+}
+
+/* remove extra button width in IE */
+button.el-button { width:auto; overflow:visible; }
+
+/*.el-button-icon-left { padding-left: 2.1em; }
+.el-button-icon-right { padding-right: 2.1em; }
+.el-button-icon-left .ui-icon { right: auto; left: .2em; margin-left: 0; }
+.el-button-icon-right .ui-icon { left: auto; right: .2em; margin-left: 0; } */
+
+.el-button-icon-solo { display:block; width:8px; text-indent: -9999px; } /* solo icon buttons must have block properties for the text-indent to work */
+
+.el-buttonset { float:left; }
+.el-buttonset .el-button { float: left; }
+.el-buttonset-single .el-button,
+.el-buttonset-multi .el-button { margin-right: -1px;}
+
+.el-toolbar { padding: .2em; margin: 0; }
+.el-toolbar .el-input, .el-toolbar .el-select { margin: 0; }
+.el-toolbar .el-buttonset { margin-right:1.5em; padding-left: 1px; }
+.el-toolbar .el-button { font-size: 1em; }
+.el-toolbar .el-toolbar-last { margin-right: 0 !important; }
+
+/* Elastic added button styles */
+.el-button.ui-state-active { z-index: 1; }
+.el-button.ui-state-hover { z-index: 2; }
+
+
+
+
+/* INSPECTOR STYLES */
+
+#inspector, #inspector .ui-widget, #inspector td, #inspector p {
+	font-size: 11px;
+}
+
+.ui-resizable-handle {
+	z-index: 9999;
+}
+
+.ui-tabs-panel {
+	overflow: hidden;
+}
+
+#inspector {
+	padding: 3px;
+}
+
+#inspector .ui-dialog-titlebar-close {
+	display: none;
+}
+
+#inspector-loading {
+	position: absolute;
+	z-index: 20000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#inspector-loading div {
+	position: relative;
+	font-size: 13px;
+	margin: 0.5em auto 0;
+	background: #505050;
+	width: 100px;
+	text-align: center;
+	color: #f3f3f3;
+	border: 6px solid #333333;
+}
+
+#tabs-inspector {
+	position: relative;
+	height: auto;
+	padding: 0;
+}
+
+#dialog-inspector {
+	padding: 3px 0 0 0;
+	height: auto;
+	position: relative;
+}
+
+#tabs-inspector .ui-tabs-panel {
+	font-size: 1em;
+	padding:0.5em 1em 0.5em 1em;
+}
+
+#ir-module {
+	padding: 3px !important;
+	line-height: 1em;
+}
+
+#mod-label-type {
+	width: 100px;
+	display: inline;
+}
+
+#ir-load-form, #ir-save-form {
+	padding: 1em 0;
+}
+
+#ir-load-select, #ir-save-input {
+	width: 171px;
+}
+
+#ir-save-input {
+	margin-right: 24px;
+}
+
+#ir-new-form {
+	padding: 0.5em 0;
+	overflow: hidden;
+}
+
+#ir-new-form table {
+	padding-right: 1em;
+	border: solid #AAAAAA;
+	border-width: 0 1px 0 0;
+	float: left;
+}
+
+#ir-new-form button {
+	margin: 2.6em 0 1em 7em;
+}
+
+#ir-new-form div {
+	float: left;
+	margin: 1.6em 0 0 1em;
+}
+
+
+#mod-typo {
+	width: 500px;
+	overflow: hidden;
+}
+
+#mod-typo-samples-panel {
+	padding-top: 1em;
+}
+
+#mod-typo-samples {
+	width: 100px;
+	height: 230px;
+	padding-right: 19px;
+	border-right: 1px solid #AAAAAA;
+	position: relative;
+	overflow: hidden;
+}
+
+#mod-typo-preview, #mod-typo-samples ul {
+	font-size: 10px;
+}
+
+#mod-typo-preview div, #mod-typo-samples ul li {
+	font-size: 1.4em;
+}
+
+#mod-typo-preview div {
+	line-height: 1.6em;
+}
+
+#mod-typo-samples ul {
+	top: 0px;
+	position: absolute;
+	text-align: center !important;
+	list-style-type: none;
+	width: 100px;
+}
+
+#mod-typo-samples ul li {
+	margin-bottom: 0.5em !important;
+	text-align: center !important;
+	overflow: hidden !important;
+	text-decoration: none !important;
+}
+
+.mod-typo-sample-name {
+	font-family: "Lucida Grande",Arial,"Bitstream Vera Sans",sans-serif;
+	font-size: 11px;
+	color: #555555;
+	background: #EEEEEE;
+	line-height: 1.2em;
+	border: solid #AAAAAA;
+	border-width: 0 1px 1px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: normal;
+	text-decoration: none;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+.mod-typo-sample-preview {
+	border: solid #AAAAAA;
+	border-width: 1px 1px 0;
+	height: 33px;
+	line-height: 33px !important;
+	text-align: center !important;
+	overflow: hidden;
+}
+
+button.mod-typo-samples-scroll {
+	margin: 3px 0;
+	padding: 0;
+	height: 10px;
+	width: 100px;
+	z-index: 1;
+}
+
+#mod-typo-info {
+	float: right;
+	width: 360px;
+	margin-left: -1px;
+	padding-left: 20px;
+	border-left: 1px solid #AAAAAA;
+}
+
+#mod-typo-title {
+	overflow: hidden;
+}
+
+#mod-typo-title span {
+	display: inline-block;
+	margin-top: 0.4em;
+}
+
+#mod-typo-reset {
+	float: right;
+}
+
+#mod-typo-preview {
+	position: relative;
+	border: 1px solid #DFDFDF;
+	margin: 0.5em 1.5em 1.5em;
+	padding: 3px;
+	height: 5em;
+	overflow: hidden;
+}
+
+#mod-typo-preview-options {
+	position: absolute;
+	bottom: 1px;
+	right: 1px;
+}
+
+#mod-typo-preview-options select {
+	width: 96px;
+}
+
+#mod-typo-preview textarea {
+	border: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-size: 1em;
+	background: transparent;
+	padding: 4px;
+	margin: 0;
+}
+
+#mod-typo-font {
+	margin-top: 0.5em;
+	padding: 1em 0;
+	border-top: 1px solid #AAAAAA;
+	border-bottom: 1px dotted #AAAAAA;
+}
+
+#mod-typo-font-select {
+	width: 100px;
+	margin-right: 1.5em;
+}
+
+#mod-typo-font-input {
+	width: 235px;
+}
+
+#mod-typo-font-toggle {
+	float: right;
+	margin-top: 1px;
+}
+
+#mod-typo-primary {
+	margin-top: 1em;
+}
+
+#mod-typo-primary input {
+	margin-right: 0.8em;
+}
+
+#mod-typo-secondary {
+	padding-top: 1em;
+}
+
+#mod-typo-toolbar .el-buttonset {
+	margin-right: 1.6em;
+}
+
+#mod-typo-toolbar .el-button {
+	padding-left: 1em;
+	padding-right: 1em;
+	width: auto;
+}
+
+#mod-typo-caps-all {
+	text-transform: uppercase;
+}
+
+#mod-typo-caps-small {
+	font-variant: small-caps;
+}
+
+#mod-typo-spacing {
+	margin-top: 1em;
+}
+
+.mod-typo-table {
+	text-align: center;
+	width: 100%;
+}
+
+.mod-typo-table tr td {
+	width: 33.33%;
+}
+
+/* OVERLAY STYLES */
+
+.dialog-overlay-active .ui-widget-overlay {
+	background: transparent;
+}
+
+/* FORM DEFAULT STYLES */
+
+.el-select {
+	padding: 2px;
+	height: 2em;
+}
+
+.el-input {
+	padding-bottom: 3px;
+}
+
+.el-input-pixel {
+	width: 36px;
+}
+
+.el-input-color {
+	width: 43px;
+	margin-left: -3px;
+}
+
+
+
+/* OTHER STYLES */
+
+.qtip-label select {
+	font-size: 13px;
+	width: 100px;
+}
+
+.qtip-label input {
+	font-size: 13px;
+	margin: 5px;
+	padding: 4px 5px 8px 5px;
+}
+
+.hide {
+	display: none !important;
+}
+
+.cycle {
+	background: red !important;
+}
+
+#slide-instructions {
+	clear : both;
+}
+
+#toolbar {
+	min-height: 46px;
+	height: auto !important;
+	height: 46px;
+	top: 0px;
+	width: 100%;
+	position: relative;
+}
+
+#toolbar ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 5px;
+	margin: 5px;
+}
+
+#toolbar ul {
+	float: left;
+	margin-top: 21px;
+	margin-left: 15px;
+	padding: 0;
+}
+
+#editor {
+	height: 590px;
+	/*background: #ddd;*/
+	background: #f9f9f9;
+	position: relative;
+	margin-top: 1.5em;
+	border: 1px solid #E3E3E3;
+}
+
+.e {
+	position: absolute;
+}
+
+#dynamic_grid {
+	position: absolute;
+	top: 0;
+}
+
+.grid_column {
+	/*background: #e9f0fc;*/
+	background: #f2f2f2;
+	height: 590px;
+}
+
+.ui-removable {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	z-index: 99999;
+}
+
+.type-sidebar { background: #ccc; }
+.type-content { background: #8db7ca; }
+.type-header { background: #21759b; }
+.type-footer { background: #333333; }

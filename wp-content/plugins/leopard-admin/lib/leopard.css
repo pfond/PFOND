@@ -1,0 +1,393 @@
+* {
+	outline: none;
+}
+
+html, body {
+	height: auto;
+}
+
+.wp-admin {
+	border: none;
+	background-color: #292929 !important;
+	background: url(images/background.gif) repeat-y #292929 !important;
+	color: #000;
+	margin: 0;
+	padding: 0px 0 0 233px;
+}
+
+a {
+	border-bottom: none;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;	
+}
+
+#adminmenu a, #submenu a, #poststuff #edButtonPreview, #poststuff #edButtonHTML, #the-comment-list p.comment-author strong a, a {
+	color: #2583ad;
+}
+
+.submit input:hover, #wphead #viewsite a:hover, #adminmenu a:hover, #sidemenu a:hover, #submenu a.current, #submenu a:hover, .submitbox #previewview a:hover, #the-comment-list .comment a:hover, #rightnow a:hover, a:hover, .subsubsub a:hover, .subsubsub a.current:hover, #login form .submit input:hover, div.dashboard-widget-submit input:hover, #edit-slug-buttons a.save:hover, #media-upload a.delete:hover {
+	color: #d54e21;
+}
+
+.button:hover, .button-secondary:hover {
+	color: #2583ad;
+}
+
+/* Header */
+
+.wp-admin #wphead {
+	background: url(images/header.jpg) repeat-x #000;
+	padding: .8em;
+	color: #fff;
+	border-bottom: solid 1px #585858;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+	border-top: none;
+	height: 50px;
+}
+
+.wp-admin #wphead a {
+	color: #fff;
+}
+
+.wp-admin #wphead h1 {
+	font-size: 2.3em;
+	font-weight: normal;
+	margin: 0;
+	font-family: "Myriad Pro", "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #fff;
+	text-shadow: 0 0 0 #000;
+}
+
+.wp-admin #wphead h1 #viewsite {
+	font-size: .4em;
+	letter-spacing: 0;
+	margin: 5px 0 0 10px !important;
+}
+
+.wp-admin #wphead h1 #viewsite a {
+	background: url(images/submenu_li.jpg) 0 0 repeat-x;
+	border: solid 1px #eee;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+	color: #505050;
+	text-shadow: #fff 1px 1px 0;
+}
+
+.wp-admin #wphead h1 #viewsite a:hover {
+	color: #000;
+	border: solid 1px #eee;
+}
+
+.wp-admin #wphead h1 #viewsite a:active {
+	background-position: 0 -25px;
+}
+
+.wp-admin #user_info {
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	z-index: 100;
+}
+
+/* Menus */
+
+.wp-admin #dashmenu {
+	margin: 0;
+	display: block;
+	position: fixed !important;
+	left: 10px !important;
+	top: 64px !important;
+	z-index: 10;
+	width: 223px;
+	border-top: solid 15px #292929;
+	padding: 30px 0 0 0;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.wp-admin #adminmenu {
+	background: #dfe4ea;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: fixed;
+	left: 10px;
+	top: 143px;
+	width: 223px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.wp-admin #sidemenu {
+	background: #dfe4ea;
+	border-bottom: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: fixed;
+	left: 10px;
+	top: 283px;
+	width: 223px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;	
+	z-index: 11;
+}
+
+.wp-admin #dashmenu li a, .wp-admin #adminmenu li a, .wp-admin #sidemenu li a {
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	width: 223px;
+	border: none;
+	color: #333;
+	padding: 0;
+	text-decoration: none;
+	text-align: left;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.wp-admin #dashmenu a, .wp-admin #adminmenu a, .wp-admin #sidemenu a  {
+	color: #000;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 3px 5px;
+	border-bottom: none;
+}
+
+.wp-admin #adminmenu li, .wp-admin #sidemenu li {
+	display: inline;
+	line-height: 200%;
+	list-style: none;
+	text-align: center;
+	white-space: nowrap;
+	position: relative;
+}
+
+.wp-admin #adminmenu li a, .wp-admin #dashmenu li a, .wp-admin #sidemenu li a {
+	width: 163px;
+	padding-left: 50px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+
+.wp-admin #adminmenu li a:hover, .wp-admin #dashmenu li a:hover, .wp-admin #sidemenu li a:hover {
+	background-position: 0 -30px;
+}
+
+.wp-admin #adminmenu a:hover, .wp-admin #adminmenu a.current, .wp-admin #dashmenu a:hover, .wp-admin #dashmenu a.current, .wp-admin #sidemenu a:hover, .wp-admin #sidemenu a.current {
+	background: none;
+	color: #333;
+}
+
+.wp-admin #adminmenu a.current, .wp-admin #dashmenu a.current, .wp-admin #dashmenu a.current:hover, .wp-admin #sidemenu a.current {
+	font-weight: bold;
+	padding-left: 50px;
+	padding-right: 0px;
+	-moz-border-radius-topleft: 0px;
+	-khtml-border-top-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-khtml-border-top-right-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	border-width: 0px;
+	border-style: none;
+	margin: 0 0 5px 0 !important;
+	background-position: 0 0;
+	margin-bottom: 5px;
+	width: 173px;
+	background: none;
+	color: #fff;
+	text-shadow: #444 1px 1px 0px;
+}
+
+.wp-admin #dashmenu li a			{background: url(images/menu.jpg) no-repeat !important;}
+.wp-admin #dashmenu li a:hover		{background: url(images/menu.jpg) no-repeat 0 -30px !important;}
+.wp-admin #dashmenu li a.current	{background: url(images/menu.jpg) no-repeat 0 -60px !important;}
+
+.wp-admin #adminmenu li a			{background: url(images/menu.jpg) no-repeat 0 -90px !important;}
+.wp-admin #adminmenu li a:hover		{background: url(images/menu.jpg) no-repeat 0 -120px !important;}
+.wp-admin #adminmenu li a.current	{background: url(images/menu.jpg) no-repeat 0 -150px !important;}
+
+.wp-admin #adminmenu li + li a			{background: url(images/menu.jpg) no-repeat 0 -180px !important;}
+.wp-admin #adminmenu li + li a:hover	{background: url(images/menu.jpg) no-repeat 0 -210px !important;}
+.wp-admin #adminmenu li + li a.current	{background: url(images/menu.jpg) no-repeat 0 -240px !important;}
+
+.wp-admin #adminmenu li + li + li a			{background: url(images/menu.jpg) no-repeat 0 -270px !important;}
+.wp-admin #adminmenu li + li + li a:hover	{background: url(images/menu.jpg) no-repeat 0 -300px !important;}
+.wp-admin #adminmenu li + li + li a.current	{background: url(images/menu.jpg) no-repeat 0 -330px !important;}
+
+.wp-admin #adminmenu li + li + li + li a			{background: url(images/menu.jpg) no-repeat 0 -360px !important;}
+.wp-admin #adminmenu li + li + li + li a:hover		{background: url(images/menu.jpg) no-repeat 0 -390px !important;}
+.wp-admin #adminmenu li + li + li + li a.current	{background: url(images/menu.jpg) no-repeat 0 -420px !important;}
+
+.wp-admin #adminmenu li + li + li + li + li a			{background: url(images/menu.jpg) no-repeat 0 -720px !important;}
+.wp-admin #adminmenu li + li + li + li + li a:hover		{background: url(images/menu.jpg) no-repeat 0 -750px !important;}
+.wp-admin #adminmenu li + li + li + li + li a.current	{background: url(images/menu.jpg) no-repeat 0 -780px !important;}
+
+.wp-admin #adminmenu li + li + li + li + li a {
+	position: relative;
+	top: 105px;
+}
+
+.wp-admin #sidemenu li a			{background: url(images/menu.jpg) no-repeat 0 -450px !important;}
+.wp-admin #sidemenu li a:hover		{background: url(images/menu.jpg) no-repeat 0 -480px !important;}
+.wp-admin #sidemenu li a.current	{background: url(images/menu.jpg) no-repeat 0 -510px !important;}
+
+.wp-admin #sidemenu li + li a			{background: url(images/menu.jpg) no-repeat 0 -540px !important;}
+.wp-admin #sidemenu li + li a:hover		{background: url(images/menu.jpg) no-repeat 0 -570px !important;}
+.wp-admin #sidemenu li + li a.current	{background: url(images/menu.jpg) no-repeat  0 -600px !important;}
+
+.wp-admin #sidemenu li + li + li a			{background: url(images/menu.jpg) no-repeat 0 -630px !important;}
+.wp-admin #sidemenu li + li + li a:hover	{background: url(images/menu.jpg) no-repeat 0 -660px !important;}
+.wp-admin #sidemenu li + li + li a.current	{background: url(images/menu.jpg) no-repeat 0 -690px !important;}
+
+
+.wp-admin #submenu, .wp-admin #minisub {
+	background: url(images/submenu.jpg) repeat-x #969696;
+	border-bottom: none;
+	margin: 80px 10px 0 10px;
+	padding: 15px 20px 5px 0;
+	font-size: 11px;
+	-moz-border-radius-topleft: 5px;
+	-khtml-border-top-left-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-khtml-border-top-right-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	min-height: 37px;
+}
+
+.wp-admin #submenu li {
+	margin: 0 -10px 0px 0;
+	display: block;
+	float: left;
+}
+
+.wp-admin #submenu li a {
+	background: url(images/submenu_li.jpg) 0 0 repeat-x;
+	height: 25px;
+	border: solid 1px #505050;
+	-webkit-box-shadow: 0px 1px 0px #c6c6c6;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 4px 10px;
+	margin: 0;
+	line-height: 200%;
+	text-align: center;
+	white-space: normal;
+	color: #505050;
+	font-weight: normal;
+	font-size: 12px;
+	text-shadow: #e7e7e7 1px 1px 0;
+}
+
+.wp-admin #submenu li a.current, .wp-admin #submenu li a:hover {
+	color: #000;
+}
+
+.wp-admin #submenu li a:active {
+	background-position: 0 -25px;
+}
+
+.wp-admin #wpbody #submenu {
+	margin-top: 10px;
+	background: #fff;
+}
+
+.wp-admin #wpbody #submenu li a {
+	background: url(images/submenu_li.jpg) 0 0 repeat-x;
+	height: 25px;
+	border: solid 1px #505050;
+	-webkit-box-shadow: 0px 0px 0px #fff;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	padding: 4px 10px;
+	margin: 0;
+	line-height: 200%;
+	text-align: center;
+	white-space: normal;
+	color: #505050;
+	font-weight: normal;
+	font-size: 12px;
+	text-shadow: #e7e7e7 1px 1px 0;
+}
+
+/* Body */
+
+.wp-admin #wpbody {
+	background: url(images/wpbody.jpg) repeat-x 0 bottom #fff;
+	margin: 1px 10px -20px 10px;
+	padding: 10px 0 36px 0;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.wp-admin #rightnow .reallynow {
+	background: url(images/really_now.jpg) no-repeat left 0 #6697d0;
+	color: #fff;
+	text-shadow: 1px 1px 0 #000;
+}
+
+.wp-admin #rightnow .reallynow a {
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.wp-admin .wrap h2 {
+	font: 24px "Myriad Pro", "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-shadow: 0 0 0 #000;
+}
+
+#update-nag {
+	background: #dfe4ea;
+	border: none;
+	color: #333;
+	margin: 0 10px 0 10px;
+	border-top: solid 1px #fff;
+}
+
+/* Footer */
+
+.wp-admin #footer {
+	height: auto;
+	padding: 5px 0 5px 10px;
+	margin: -40px 0 0 0;
+	font-size: 12px;
+	background: #040404;
+}
+
+.wp-admin #footer p:after {
+	content: " | Leopard Admin by Teddy Hwang at http://www.teddyhwang.com/";
+}
+
+/* Float */
+
+.wp-admin #submenu:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
