@@ -424,10 +424,56 @@ function pfond_sidebar_jump_list_section($topic) {
 	<?php
 }
 
+function pfond_sidebar_last_updated($topic) {
+	$query = new WP_Query(array(
+			'post_type' => 'disease_info',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'info_category',
+					'field' => 'slug',
+					'terms' => array($topic)
+				)
+			),
+			'orderby' => 'title',
+			'order' => 'ASC',
+			'nopaging' => true
+		));
+
+	$maxtime = -1;
+
+	if ($query->have_posts()) : while ($query->have_posts()) : $query->the_post();
+		$datetime = get_the_modified_time('j F Y g:i a');
+		$t = strtotime($datetime);
+		
+		if ($maxtime == -1) {
+			$maxtime = $t;
+		} else {
+			$maxtime = max($maxtime, $t);
+		}		
+
+	endwhile; endif;
+
+	echo '<a href="#" onclick="alert(\''. date('M jS, Y \a\t h:i:s A', $maxtime) . '\');">' . date('M jS, Y',$maxtime) . '</a>';
+
+}
+
 function pfond_sidebar_jump_list() {
 	if (!is_tax('info_category', array('overview', 'treatment', 'research'))) return;
-	?>
 	
+	$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+	if (strpos($actual_link, 'overview') !== false) {
+		$curr_topic = 'overview';
+	} else if (strpos($actual_link, 'treatment') !== false) {
+		$curr_topic = 'treatment';
+	} else {
+		$curr_topic = 'research';
+	}
+
+	?>
+	<div>
+		<p>Last updated: <?php pfond_sidebar_last_updated($curr_topic); ?></p>
+	</div>
 	<div id="jumplist">
 	<h3>About the Disease</h3>
 	<?php pfond_sidebar_jump_list_section('overview'); ?>
